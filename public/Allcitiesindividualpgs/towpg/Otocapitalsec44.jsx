@@ -20,10 +20,10 @@ function Otocapitalsec44() {
     <div className='container-flued  p-0'>
       <div className="row h-100 p-0">
         <div className="col-12 row flex-nowrap p-0 justify-center ps-4 overflow-scroll imgsofone">
-        <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/otocapitalsec44\IMG-20230806-WA0006.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/otocapitalsec44\IMG-20230806-WA0010.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/otocapitalsec44\IMG-20230806-WA0013.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/otocapitalsec44\IMG-20230806-WA0016.jpg" alt="" /></div>
+        <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230806-WA0006.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230806-WA0010.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230806-WA0013.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230806-WA0016.jpg" alt="" /></div>
         </div>
         <div className="col-12 row row2 py-3 ">
           <div className="col-12 col-lg-8 ps-4 ps-lg-0 ">
