@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Amentiesmini from '../Allcitiesindividualpgs/pgone/Amentiesmini'
+import Amentiesmini from '../../../public/Allcitiesindividualpgs/pgone/Amentiesmini'
 import Prasence from '../Prasence'
 import { Link } from 'react-router-dom';
 

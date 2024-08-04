@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
-import Navbar2 from '../../Navbar2'
+import Navbar2 from '../../../src/components/Navbar2'
 import Bookingsummery from '../pgone/Bookingsummery'
 import Amenities from '../pgone/Amenities'
-import DelhiAllpg from '../../pgbycities/DelhiAllpg'
-import NoidaALLPg from '../../pgbycities/NoidaALLPg'
+import DelhiAllpg from '../../../src/components/pgbycities/DelhiAllpg'
+import NoidaALLPg from '../../../src/components/pgbycities/NoidaALLPg'
 import { Link } from 'react-router-dom'
-import GreaterNoida from '../../citylist/GreaterNoida'
-import GaziyabadALlpg from '../../pgbycities/GaziyabadAllPg'
+import GreaterNoida from '../../../src/components/citylist/GreaterNoida'
+import GaziyabadALlpg from '../../../src/components/pgbycities/GaziyabadAllPg'
 import Ratting from '../pgone/Ratting'
 
 
