@@ -13,7 +13,7 @@ function Footer() {
               <div className="row  h-100 ">
                   <div className="col-md-4">
                       <div className="content-box">
-                       <img className='flogo' src="/public/otologo2.png" alt="oto"/>
+                       <img className='flogo' src="/otologo2.png" alt="oto"/>
                           <p className='mt-4`'>
                               You know, when we go out of our home to the city in search of studies and jobs, we get everything very easily but we do not get a happy home.
                           </p>

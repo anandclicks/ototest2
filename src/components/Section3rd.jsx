@@ -10,14 +10,14 @@ function Section3rd() {
         <div className=" col-12 col-lg-6 herordleft  h-100  flex flex-wrap">
         
          <div className="col-12 col-lg-6 section3rdleftimg p-2">
-            <img className='object-cover h-full w-full rounded-xl' src="/public/herosectionimg/one.jpg" alt="" />
+            <img className='object-cover h-full w-full rounded-xl' src="/herosectionimg/one.jpg" alt="" />
           </div>
           <div className="col-12 col-lg-6 h-full d-none d-lg-flex flex-col">
             <div className="col-12   p-2">
-              <img className='rounded-xl ' src="/public/herosectionimg/two.jpg" alt="" />
+              <img className='rounded-xl ' src="/herosectionimg/two.jpg" alt="" />
             </div>
             <div className="col-12 p-2">
-              <img className='rounded-xl ' src="/public/herosectionimg/three.jpg" alt="" />
+              <img className='rounded-xl ' src="/herosectionimg/three.jpg" alt="" />
             </div>
           </div>
         

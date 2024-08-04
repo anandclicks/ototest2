@@ -20,10 +20,10 @@ function Otoroyalwinsec104() {
     <div className='container-flued  p-0'>
       <div className="row h-100 p-0">
         <div className="col-12 row flex-nowrap p-0 justify-center ps-4 overflow-scroll imgsofone">
-        <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/components\Allcitiesindividualpgs\otoroyalwinsec104\IMG-20230522-WA0000.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/components\Allcitiesindividualpgs\otoroyalwinsec104\IMG-20230522-WA0003.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/components\Allcitiesindividualpgs\otoroyalwinsec104\IMG-20230522-WA0004.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/components\Allcitiesindividualpgs\otoroyalwinsec104\IMG-20230522-WA0007.jpg" alt="" /></div>
+        <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs\otoroyalwinsec104\IMG-20230522-WA0000.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs\otoroyalwinsec104\IMG-20230522-WA0003.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs\otoroyalwinsec104\IMG-20230522-WA0004.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs\otoroyalwinsec104\IMG-20230522-WA0007.jpg" alt="" /></div>
         </div>
         <div className="col-12 row row2 py-3 ">
           <div className="col-12 col-lg-8 ps-4 ps-lg-0 ">

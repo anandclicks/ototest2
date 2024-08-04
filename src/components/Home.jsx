@@ -20,7 +20,7 @@ function Home() {
       <div className="row row2 h-full flex-col-reverse flex-lg-col hometextcontent">
         {/* <div className="col-12 col-lg-6 homeLeft flex items-center justify-start">
           <div className=" img">
-            <img className='h-full w-full object-cover' src="./public/home.jpg" alt="" />
+            <img className='h-full w-full object-cover' src="./home.jpg" alt="" />
           </div>
         </div> */}
         <div className="col-12  homeRight flex justify-center items-center my-3 my-lg-0">

@@ -17,31 +17,31 @@ function Gurugram() {
        <p className='p'>Discover a new way of living in an Oto Stays community, where modern comfort and vibrant connections seamlessly blend, creating a unique and inclusive living experience that's second to none.</p>
        <div className="row gap-2 mt-3">
        <div className="col-12 col-lg-3 flex  items-end p-2 bg-black text-white rounded-lg">
-        <img className='facelityImg' src="./public/pgFacelities/food-subscriptions.svg" alt="" />
+        <img className='facelityImg' src="./pgFacelities/food-subscriptions.svg" alt="" />
         <p>food Subscriptions</p>
        </div>
        <div className="col-12 col-lg-3 flex  items-end p-2 bg-black text-white rounded-lg">
-        <img className='facelityImg' src="./public/pgFacelities/free-housekeeping.svg" alt="" />
+        <img className='facelityImg' src="./pgFacelities/free-housekeeping.svg" alt="" />
         <p>free Housekeeping</p>
        </div>
        <div className="col-12 col-lg-3 flex  items-end p-2 bg-black text-white rounded-lg">
-        <img className='facelityImg' src="./public/pgFacelities/free-maintenance.svg" alt="" />
+        <img className='facelityImg' src="./pgFacelities/free-maintenance.svg" alt="" />
         <p>free Maintenance</p>
        </div>
        <div className="col-12 col-lg-3 flex  items-end p-2 bg-black text-white rounded-lg">
-        <img className='facelityImg' src="./public/pgFacelities/fully-furnished.svg" alt="" />
+        <img className='facelityImg' src="./pgFacelities/fully-furnished.svg" alt="" />
         <p>fully Furnished</p>
        </div>
        <div className="col-12 col-lg-3 flex  items-end p-2 bg-black text-white rounded-lg">
-        <img className='facelityImg' src="./public/pgFacelities/no-lock-in.svg" alt="" />
+        <img className='facelityImg' src="./pgFacelities/no-lock-in.svg" alt="" />
         <p>No Lock In</p>
        </div>
        <div className="col-12 col-lg-3 flex  items-end p-2 bg-black text-white rounded-lg">
-        <img className='facelityImg' src="./public/pgFacelities/ready-to-move-in.svg" alt="" />
+        <img className='facelityImg' src="./pgFacelities/ready-to-move-in.svg" alt="" />
         <p>Ready to move in</p>
        </div>
        <div className="col-12 col-lg-3 flex  items-end p-2 bg-black text-white rounded-lg">
-        <img className='facelityImg' src="./public/pgFacelities/security-deposit.svg" alt="" />
+        <img className='facelityImg' src="./pgFacelities/security-deposit.svg" alt="" />
         <p>security deposit</p>
        </div>
        </div>
@@ -58,7 +58,7 @@ function Gurugram() {
        </div>
      </div>
      <div className="col-lg-6 col-12 pgdelhiRight">
-       <img className='rounded-3' src="./public/gurugram.jpg" alt="src\assets\gurugram.jpg" />
+       <img className='rounded-3' src="./gurugram.jpg" alt="src\assets\gurugram.jpg" />
      </div>
    </div>
  </div>

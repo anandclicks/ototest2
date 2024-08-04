@@ -8,7 +8,7 @@ function WhychooseUs() {
           {/* 1st  */}
           <div className="col-12 whychooseCard row justify-between items-center" >
             <div className="col-12 col-lg-2 whychooseUsimg">
-              <img className='h-full w-full object-cover' src="./public/whychooseus/comfort.jpg" alt="" />
+              <img className='h-full w-full object-cover' src="./whychooseus/comfort.jpg" alt="" />
             </div>
             <div className="col-12 col-lg-7">
               <h2 className='fs-1 fw-bold'>Tailored Comfort</h2>
@@ -23,13 +23,13 @@ function WhychooseUs() {
 </p>
             </div>
             <div className="col-12 col-lg-2 whychooseUsimg">
-              <img className='h-full w-full object-cover' src="/public/whychooseus/location.jpg" alt="" />
+              <img className='h-full w-full object-cover' src="/whychooseus/location.jpg" alt="" />
             </div>
           </div>
           {/* 3rd  */}
           <div className="col-12 whychooseCard row justify-between items-center">
             <div className="col-12 col-lg-2 whychooseUsimg">
-              <img className='h-full w-full object-cover' src="/public/whychooseus/facelity.jpg" alt="" />
+              <img className='h-full w-full object-cover' src="/whychooseus/facelity.jpg" alt="" />
             </div>
             <div className="col-12 col-lg-7">
               <h2 className='fs-1 fw-bold'>All-Inclusive Packages</h2>
@@ -44,13 +44,13 @@ function WhychooseUs() {
 </p>
             </div>
             <div className="col-12 col-lg-2 whychooseUsimg">
-              <img className='h-full w-full object-cover' src="/public/whychooseus/flexible.jpg" alt="" />
+              <img className='h-full w-full object-cover' src="/whychooseus/flexible.jpg" alt="" />
             </div>
           </div>
           {/* 5th  */}
           <div className="col-12 whychooseCard row justify-between items-center">
             <div className="col-12 col-lg-2 whychooseUsimg">
-              <img className='h-full w-full object-cover' src="/public/whychooseus/community.jpg" alt="" />
+              <img className='h-full w-full object-cover' src="/whychooseus/community.jpg" alt="" />
             </div>
             <div className="col-12 col-lg-7">
               <h2 className='fs-1 fw-bold'>Community-Centric Spaces</h2>
@@ -64,13 +64,13 @@ function WhychooseUs() {
               <p className='p'>Experience modern living with our state-of-the-art amenities. From fully-equipped kitchens and ergonomic workspaces to comfortable lounges and fitness centers, our properties are equipped to enhance your quality of life.</p>
             </div>
             <div className="col-12 col-lg-2 whychooseUsimg">
-              <img className='h-full w-full object-cover' src="/public/whychooseus/amenties.jpg" alt="" />
+              <img className='h-full w-full object-cover' src="/whychooseus/amenties.jpg" alt="" />
             </div>
           </div>
           {/* 7th  */}
           <div className="col-12 whychooseCard row justify-between items-center" >
             <div className="col-12 col-lg-2 whychooseUsimg">
-              <img className='h-full w-full object-cover' src="/public/whychooseus/supportteam.png" alt="" />
+              <img className='h-full w-full object-cover' src="/whychooseus/supportteam.png" alt="" />
             </div>
             <div className="col-12 col-lg-7">
               <h2 className='fs-1 fw-bold'>Dedicated Support Team</h2>

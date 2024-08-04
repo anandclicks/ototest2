@@ -15,7 +15,7 @@ function Navbar() {
       <div className="row row2 h-full">
         <div className="col-lg-4 col-6 navLeft">
          <Link to={'/'}>
-         <img className='logo rounded-5' src="/public/otologo.png" alt="" />
+         <img className='logo rounded-5' src="/otologo.png" alt="" />
          </Link>
         </div>
         <div className="col-lg-8 col-6 navRight justify-end ">
