@@ -813,7 +813,7 @@ ul li {
   border-top-left-radius: 35%;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 75%;
-  background-image: url(/src/assets/testimonialbg.png);
+  background-image: url(/testimonialbg.png);
   background-size: cover;
 }
 
