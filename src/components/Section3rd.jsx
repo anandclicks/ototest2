@@ -25,7 +25,7 @@ function Section3rd() {
         <div className="col-12 col-lg-6  herorfright flex justify-end ">
           <div className="">
             <h1><span className='hiligtedText ps-0'>Start living</span> your best <br /> life from day one</h1>
-            <img className='w-80 mt-5' src="/assets\section3rd_rightbg.png" alt="" />
+            <img className='w-80 mt-5' src="/section3rd_rightbg.png" alt="" />
           </div>
         </div>
       </div>
