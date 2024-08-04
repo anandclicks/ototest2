@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react'
-import Navbar2 from '../../../src/components/Navbar2'
+import Navbar2 from '../Navbar2'
 import Bookingsummery from '../pgone/Bookingsummery'
 import Amenities from '../pgone/Amenities'
-import DelhiAllpg from '../../../src/components/pgbycities/DelhiAllpg'
-import NoidaALLPg from '../../../src/components/pgbycities/NoidaALLPg'
+import DelhiAllpg from '../pgbycities/DelhiAllpg'
+import NoidaALLPg from '../pgbycities/NoidaALLPg'
 import { Link } from 'react-router-dom'
-import GreaterNoida from '../../../src/components/citylist/GreaterNoida'
-import GaziyabadALlpg from '../../../src/components/pgbycities/GaziyabadAllPg'
+import GreaterNoida from '../citylist/GreaterNoida'
+import GaziyabadALlpg from '../pgbycities/GaziyabadAllPg'
 import Ratting from '../pgone/Ratting'
 
 
-function Otocapitalsec44() {
+function Otoroyaltownsec45() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -20,15 +20,15 @@ function Otocapitalsec44() {
     <div className='container-flued  p-0'>
       <div className="row h-100 p-0">
         <div className="col-12 row flex-nowrap p-0 justify-center ps-4 overflow-scroll imgsofone">
-        <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230806-WA0006.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230806-WA0010.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230806-WA0013.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230806-WA0016.jpg" alt="" /></div>
+        <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230523-WA0000.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230523-WA0001.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230523-WA0003.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs/otocapitalsec44/IMG-20230523-WA0004.jpg" alt="" /></div>
         </div>
         <div className="col-12 row row2 py-3 ">
           <div className="col-12 col-lg-8 ps-4 ps-lg-0 ">
             <h2 className='fwnormal fs-1 mt-3'>
-            Oto capital sec44 
+            Oto royaltown sec45
             </h2>
             <p className='p text-black-50 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, repellendus?</p>
           <Amenities/>
@@ -66,4 +66,4 @@ function Otocapitalsec44() {
   )
 }
 
-export default Otocapitalsec44
+export default Otoroyaltownsec45

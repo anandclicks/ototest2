@@ -19,12 +19,12 @@ import Gaziyabad from './components/citylist/Gaziyabad'
 import Allpg from './components/Allpgs/Allpg'
 import Testimonials from './components/Testimonials'
 import Whychooseustwo from './components/Whychooseustwo'
-import Otocapitalsec44 from '../public/Allcitiesindividualpgs/towpg/Otocapitalsec44'
-import Otobloomsec45 from '../public/Allcitiesindividualpgs/towpg/Otobloomsec45'
-import Otoroyaltownsec45 from '../public/Allcitiesindividualpgs/towpg/Otoroyaltownsec45'
-import Otoroyalwinsec104 from '../public/Allcitiesindividualpgs/towpg/Otoroyalwinsec104'
-import Otoscouthousesec45 from '../public/Allcitiesindividualpgs/towpg/Otoscouthousesec45'
-import Otowhitehousesec104 from '../public/Allcitiesindividualpgs/towpg/Otowhitehousesec104'
+import Otocapitalsec44 from './components/towpg/Otocapitalsec44'
+import Otobloomsec45 from './components/towpg/Otobloomsec45'
+import Otoroyaltownsec45 from './components/towpg/Otoroyaltownsec45'
+import Otoroyalwinsec104 from './components/towpg/Otoroyalwinsec104'
+import Otoscouthousesec45 from './components/towpg/Otoscouthousesec45'
+import Otowhitehousesec104 from './components/towpg/Otowhitehousesec104'
 
 function App() {
   useEffect(() => {

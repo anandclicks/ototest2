@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: 'roboto';
 }
+h1 {
+  text-transform: capitalize !important;
+}
 body, html {
   height: 100%;
   width: 100%;
