@@ -12,7 +12,7 @@ function NoidaALLPg() {
      <>
       <div className="row2 row h35">
       <Link to={'/pg-in-noida/Oto-capital-sec44'}  className="hotel-card row p-0 p-lg-2 w-100 col-12 position-relative mt-3 cursor-pointer text-decoration-none text-black">
-      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/Allcitiesindividualpgs\otowhitehousesec104\IMG-20230816-WA0013.jpg" alt="Hotel Image" />
+      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/otowhitehousesec104\IMG-20230816-WA0013.jpg" alt="Hotel Image" />
       <div className="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-between">
         <div className="hotel-details d-flex flex-column justify-content-start justify-content-lg-between">
           <div className="w-100 my- my-lg-2">
@@ -32,7 +32,7 @@ function NoidaALLPg() {
       </div>
     </Link>
     <Link to={'/pg-in-noida/Oto-bloom-sec45'}  className="hotel-card row p-0 p-lg-2 w-100 col-12 position-relative mt-3 cursor-pointer text-decoration-none text-black">
-      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/Allcitiesindividualpgs\otobloomsec45\IMG-20240607-WA0053.jpg" alt="Hotel Image" />
+      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/otobloomsec45\IMG-20240607-WA0053.jpg" alt="Hotel Image" />
       <div className="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-between">
         <div className="hotel-details d-flex flex-column justify-content-start justify-content-lg-between">
           <div className="w-100 my- my-lg-2">
@@ -52,7 +52,7 @@ function NoidaALLPg() {
       </div>
     </Link>
     <Link to={'/pg-in-noida/Oto-royaltown-sec45'}  className="hotel-card row p-0 p-lg-2 w-100 col-12 position-relative mt-3 cursor-pointer text-decoration-none text-black">
-      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/Allcitiesindividualpgs\otoroyaltownsec45\IMG-20230523-WA0003.jpg" alt="Hotel Image" />
+      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/otoroyaltownsec45\IMG-20230523-WA0003.jpg" alt="Hotel Image" />
       <div className="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-between">
         <div className="hotel-details d-flex flex-column justify-content-start justify-content-lg-between">
           <div className="w-100 my- my-lg-2">
@@ -92,7 +92,7 @@ function NoidaALLPg() {
       </div>
     </Link>
     <Link to={'/pg-in-noida/Oto-scout-house-sec45'}  className="hotel-card row p-0 p-lg-2 w-100 col-12 position-relative mt-3 cursor-pointer text-decoration-none text-black">
-      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/Allcitiesindividualpgs\otoscouthousesec45\IMG-20230905-WA0038.jpg" alt="Hotel Image" />
+      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/otoscouthousesec45\IMG-20230905-WA0038.jpg" alt="Hotel Image" />
       <div className="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-between">
         <div className="hotel-details d-flex flex-column justify-content-start justify-content-lg-between">
           <div className="w-100 my- my-lg-2">
@@ -112,7 +112,7 @@ function NoidaALLPg() {
       </div>
     </Link>
     <Link to={'/pg-in-noida/Oto-white-houses-sec104'}  className="hotel-card row p-0 p-lg-2 w-100 col-12 position-relative mt-3 cursor-pointer text-decoration-none text-black">
-      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/Allcitiesindividualpgs\otowhitehousesec104\IMG-20230816-WA0013.jpg" alt="Hotel Image" />
+      <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/otowhitehousesec104\IMG-20230816-WA0013.jpg" alt="Hotel Image" />
       <div className="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-between">
         <div className="hotel-details d-flex flex-column justify-content-start justify-content-lg-between">
           <div className="w-100 my- my-lg-2">

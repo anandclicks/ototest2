@@ -29,7 +29,7 @@ function Ratting() {
       </div>
       <div>
       <div className="room-image">
-        <img src="/Allcitiesindividualpgs\pgone\pgone2.jpg" alt="Room" className="img-fluid rounded w-60" />
+        <img src="/pgone\pgone2.jpg" alt="Room" className="img-fluid rounded w-60" />
       </div>
       <div className="selected-button">
         <button className="btn bgDone bg-light border-dark rounded-none py-2 w-100 mt-2">

@@ -18,10 +18,10 @@ function One() {
     <div className='container-flued  p-0'>
       <div className="row h-100 p-0">
         <div className="col-12 row flex-nowrap p-0 justify-center ps-4 overflow-scroll imgsofone">
-        <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs\pgone\deom1.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs\pgone\demo2.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs\pgone\demo3.jpg" alt="" /></div>
-          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/Allcitiesindividualpgs\pgone\demo4.jpg" alt="" /></div>
+        <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/pgone\deom1.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/pgone\demo2.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/pgone\demo3.jpg" alt="" /></div>
+          <div className="col-12 col-lg-3 overflow-hidden p-0 h-full"><img className='h-full w-full object-cover ' src="/pgone\demo4.jpg" alt="" /></div>
         </div>
         <div className="col-12 row row2 py-3 ">
           <div className="col-12 col-lg-8 ps-4 ps-lg-0 ">
