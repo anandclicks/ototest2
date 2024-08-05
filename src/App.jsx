@@ -25,6 +25,8 @@ import Otoroyaltownsec45 from './components/towpg/Otoroyaltownsec45';
 import Otoroyalwinsec104 from './components/towpg/Otoroyalwinsec104';
 import Otoscouthousesec45 from './components/towpg/Otoscouthousesec45';
 import Otowhitehousesec104 from './components/towpg/Otowhitehousesec104';
+import Aboutus from './components/Aboutuscomponents/Aboutus';
+import Otoquility from './components/Aboutuscomponents/Otoquility';
 
 function App() {
   useEffect(() => {
@@ -38,8 +40,8 @@ function App() {
           <Navbar />
           <Routes>
             {/* this is index route */}
-            <Route index element={<><Home /><Prasence /><Section3rd /><Testimonials /><Whychooseustwo /></>} />
-            <Route path='/aboutus' element={<><Navbar2 /><Section3rd /><WhychooseUs /></>} />
+            <Route index element={<><Home /><Prasence /><Otoquility/><Section3rd /><Testimonials /><Whychooseustwo /></>} />
+            <Route path='/aboutus' element={<><Navbar2 /><Aboutus/></>} />
             {/* this route is for explore pg */}
             <Route path='/explorepgs' element={<><Allpg /></>} />
             {/* these are all routes for individual cities */}
