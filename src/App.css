@@ -807,9 +807,12 @@ ul li {
   background-color: #F8F9FF;
 }
 .minicircle{
- 
+ height: 100%;
+ width: 100%;
   background-image: url(/testimonialbg.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section3rdleftimg{
