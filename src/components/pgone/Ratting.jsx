@@ -182,29 +182,24 @@ function Ratting() {
       </p>
     </div>
   </div>
-      <div className="container mt-5">
-      <h2 className='fs-3 fw-bold'>Hotel policies</h2>
-      <div className="row mt-4">
-        <div className="col-md-6">
-          <div className="check-in-out">
-            <div className="d-flex align-items-center">
-              <div className="policy">
-                <h5>Check-in</h5>
-                <p>12:00 PM</p>
-              </div>
-              <div className="policy ml-5">
-                <h5>Check-out</h5>
-                <p>11:00 AM</p>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div className="nearby-card custom-card-shadow my-4">
+      <div className="nearby-card-body p-4">
+        <h5 className="nearby-card-title mb-3 fs-3 fw-bold">Nearby Attractions</h5>
+        <ul className="nearby-card-list list-unstyled">
+          <li className="nearby-card-item">
+            <span role="img" aria-label="location">📍</span> 20Mtr om deiry
+          </li>
+          <li className="nearby-card-item">
+            <span role="img" aria-label="metro">🚇</span> 5 min away from Botanical garden metro station
+          </li>
+          <li className="nearby-card-item">
+            <span role="img" aria-label="food">🍱</span> 15 min away from DLF Mall of India
+          </li>
+          <li className="nearby-card-item">
+            <span role="img" aria-label="park">🌳🌲</span> Nearby best location parks and workout space, open gym, etc.
+          </li>
+        </ul>
       </div>
-      <ul className="mt-4">
-        <li>Couples are welcome</li>
-        <li>Guests can check in using any local or outstation ID proof (PAN card not accepted).</li>
-        <li>This hotel is serviced under the trade name of La Prince Residency as per quality standards of OTO STAYS</li>
-      </ul>
     </div>
       </div>
   )

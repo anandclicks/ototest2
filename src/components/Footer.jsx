@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className='h35two footer flex items-center'>
       
-      <footer className='w-full text-white'>
+      <footer className='w-full text-white primeryBg'>
             <div className="container h-100">
               <div className="row  h-100 ">
                   <div className="col-md-4">
@@ -27,7 +27,7 @@ function Footer() {
                           </div>
                       </div>
                   </div>
-                  <div className="col-md-4 pt-4 flex justify-center">
+                  <div className="col-md-4 pt-4 flex justify-start justify-lg-center">
                       <div className="contact-info ">
                           <h5 className='fw-bold fs-3'>Useful Links</h5>
                           <ul className="list-unstyled d-flex flex-column">

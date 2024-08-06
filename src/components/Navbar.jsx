@@ -19,7 +19,7 @@ function Navbar() {
          </Link>
         </div>
         <div className="col-lg-8 col-6 navRight justify-end ">
-          <ul className='list-unstyld flex gap-2  d-lg-flex d-none'>
+          <ul className='list-unstyld flex gap-4  d-lg-flex d-none'>
           <Link to={'/explorepgs'} className='fwnormal cursor'>Explore PG</Link>
             <Link to={'/aboutus'} className='fwnormal cursor'>About Us</Link>
             <Link to={'/contactUs'}  className='fwnormal cursor'>Contact us</Link> 

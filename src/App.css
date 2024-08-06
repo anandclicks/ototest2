@@ -824,7 +824,7 @@ ul li {
 /* .whychooseCard */
 
  .spanfor3rdsecicon , a, a:hover {
-padding: 20px;
+
 text-decoration: none;
 color: inherit;
 }
@@ -1134,6 +1134,7 @@ h2 {
   height: auto;
   object-fit: cover;
 }
+/* nearby  */
 
 
 
@@ -1173,7 +1174,12 @@ h2 {
 
 
 
-
+@media (max-width: 1768px) {
+  .row2 {
+    padding: 0px 70px !important;
+  }
+ 
+}
 
 
 
@@ -1196,7 +1202,7 @@ h2 {
     display: flex;
   }
   .home{
-    height: auto;
+    height: 80vh;
     padding-top: 100px;
     overflow-x: hidden !important;
     position: relative;
@@ -1273,9 +1279,8 @@ h2 {
   .amenities {
     margin-top: 0px;
   }
- 
+ .h35two {
+  height: inherit !important;
+ }
 }
-@media (max-width: 768px) {
-  /* Styles for tablet devices */
- 
-}
+
