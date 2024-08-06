@@ -17,7 +17,7 @@ function Testimonials() {
   </div>
   <div className="col-12 col-lg-8 h-full flex items-center justify-center">
     <div className="testimonialsBox">
-      <h1 className=' text-center'><span className='hiligtedText'>Testimonials </span> <br />People are talking.</h1>
+      <h1 className=' text-center'><span className='hiligtedText pt-5'>Testimonials </span> <br />People are talking.</h1>
       <div className="col-12 col-lg-10 flex row flex-nowrap overflow-hidden testimonialWrapper">
       <div className="container w-full  mt-4">
     <div className="review p-3 mb-3 border rounded">

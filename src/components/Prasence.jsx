@@ -28,7 +28,7 @@ function Prasence() {
         </Link >
         <Link to={'/pg-in-gaziyabad'} className="col-lg-2 col-8 h-full images card p-3 my-lg-0 shadow-md">
         <img src="/gaziyabad.jpg" alt="" />
-        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase '>gaziyabad</h2>
+        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase '>Ghaziabad</h2>
         </Link >
       </div>
     </div>

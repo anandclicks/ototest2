@@ -769,6 +769,7 @@ ul li {
  /* testimonials aniamated shape css  */
  .testimonails{
   position: relative;
+  height: 100vh !important;
  }
  .testimonails span {
   padding-left: 0px !important;
@@ -1176,9 +1177,11 @@ h2 {
 
 @media (max-width: 1768px) {
   .row2 {
-    padding: 0px 70px !important;
+    padding: 0px 40px !important;
   }
- 
+ .custom-shape-divider-top-1722606489{
+  height: 40px !important;
+ }
 }
 
 
