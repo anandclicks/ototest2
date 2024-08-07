@@ -30,8 +30,11 @@ body, html {
   display: flex;
   align-items: center;
 }
+.nnavbarLink {
+  font-size: 16px !important;
+}
 .navLeft .logo {
-  width: 120px;
+  width: 100px;
 }
 .primeryBg {
   background-color:#14658A!important;
@@ -1153,13 +1156,37 @@ h2 {
 }
 
 
+/* 3rd section divider shape css  */
+.Otoquility {
+  position: relative;
+  background-color: #F8F9FF!important;
+  
+}
+ .Otoquility .container {
+z-index: 9;
+  position: relative;
+ }
+ .custom-shape-divider-top-1723052210 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: 0%;
+}
 
+.custom-shape-divider-top-1723052210 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 113px;
+  transform: rotateY(180deg);
+}
 
-
-
-
-
-
+.custom-shape-divider-top-1723052210 .shape-fill {
+  fill: #ffffff;
+}
 
 
 

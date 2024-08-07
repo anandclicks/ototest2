@@ -3,8 +3,14 @@ import React from 'react'
 function Otoquility() {
   return (
     <>
-    <div className="container  h-[75vh] h-Auto">
-    <div className="row h-full items-center mt-2 mt-lg-5">
+    <div className="container-flued Otoquility  h-[75vh] h-Auto">
+    <div class="custom-shape-divider-top-1723052210">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+    </svg>
+</div>
+   <div className="container h-full flex items-center">
+   <div className="row h-full items-center mt-2 mt-lg-5">
     <div className="col-md-5 mb-4 h-full flex  items-center pe-5">
         <img src="https://wallpapers.com/images/hd/hotel-background-6s9uozn0lpef15n6.jpg" alt="Software Development" className="h-full w-full object-contain me-0 me-lg-5 pe-0 pe-lg-5" />
       </div>  
@@ -24,6 +30,7 @@ function Otoquility() {
     </div>
    </div>
     </div>
+   </div>
   </div>
     </>
   )

@@ -18,14 +18,14 @@ function Navbar() {
          <img className='logo rounded-5' src="/otologo.png" alt="" />
          </Link>
         </div>
-        <div className="col-lg-8 col-6 navRight justify-end ">
-          <ul className='list-unstyld flex gap-4  d-lg-flex d-none'>
-          <Link to={'/explorepgs'} className='fwnormal cursor'>Explore PG</Link>
-            <Link to={'/aboutus'} className='fwnormal cursor'>About Us</Link>
-            <Link to={'/contactUs'}  className='fwnormal cursor'>Contact us</Link> 
-            <Link to={'/'} className='fwnormal cursor'>+90 000000000</Link>
-            <div className="btn primeryBg border-none rounded-none py-2 flex items-center px-4">Book PG</div>
-          </ul>
+        <div className="col-lg-6 flex items-center"> <ul className='list-unstyld flex gap-5  d-lg-flex d-none'>
+          <Link to={'/explorepgs'} className=' cursor navbarLink'>Explore PG</Link>
+            <Link to={'/aboutus'} className=' cursor navbarLink'>About Us</Link>
+            <Link to={'/contactUs'}  className=' cursor navbarLink'>Contact us</Link> 
+            <Link to={'/'} className=' cursor navbarLink'>+91 7415051778</Link>
+          </ul></div>
+        <div className="col-lg-2 col-6 navRight justify-end ">
+            <div className="btn primeryBg border-none rounded-none py-2 flex items-center px-4 fw-light">List Property</div>
           <i onClick={toggleNavstate} className="fa-solid fa-bars menuBar fs-1 d-flex d-lg-none me-3 me-lg-0"></i>
           <div className={`col-12  d-flex d-lg-flex mobileMenu d-flex d-lg-none flex-column align-items-start justify-content-between ${Navstate ? 'navOn' : 'navOff' }`}>
       <ul className="list-unstyled d-flex flex-column bg-black gap-3 p-3 col-8 h-100 shadow-lg text-white">

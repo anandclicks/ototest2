@@ -5,6 +5,7 @@ function Section3rd() {
     window.scrollTo(0, 0);
   }, []);
   return (
+    <>
     <div className='containr-flued h-[70vh] section3rd py-5 h-Auto'>
       <div className="row row2 h-100 flex-wrap ">
         <div className=" col-12 col-lg-6 herordleft  h-100  flex flex-wrap">
@@ -43,6 +44,7 @@ function Section3rd() {
             </div>
           </div>
     </div>
+    </>
   )
 }
 
