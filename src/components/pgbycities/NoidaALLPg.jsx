@@ -25,7 +25,7 @@ function NoidaALLPg() {
             <p className="price my-2 my-lg-0 fs-5">₹562 <span className="original-price">₹2362</span> 71% off</p>
           </div>
         </div>
-        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard">
+        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard m-1 m-lg-3">
           <button className="bg-transparent text-black viewDtsl">View Details</button>
           <button className="btn bg-black bookPg">Book Now</button>
         </div>
@@ -45,7 +45,7 @@ function NoidaALLPg() {
             <p className="price my-2 my-lg-0 fs-5">₹562 <span className="original-price">₹2362</span> 71% off</p>
           </div>
         </div>
-        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard">
+        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard m-1 m-lg-3">
           <button className="bg-transparent text-black viewDtsl">View Details</button>
           <button className="btn bg-black bookPg">Book Now</button>
         </div>
@@ -65,7 +65,7 @@ function NoidaALLPg() {
             <p className="price my-2 my-lg-0 fs-5">₹562 <span className="original-price">₹2362</span> 71% off</p>
           </div>
         </div>
-        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard">
+        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard m-1 m-lg-3">
           <button className="bg-transparent text-black viewDtsl">View Details</button>
           <button className="btn bg-black bookPg">Book Now</button>
         </div>
@@ -85,7 +85,7 @@ function NoidaALLPg() {
             <p className="price my-2 my-lg-0 fs-5">₹562 <span className="original-price">₹2362</span> 71% off</p>
           </div>
         </div>
-        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard">
+        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard m-1 m-lg-3">
           <button className="bg-transparent text-black viewDtsl">View Details</button>
           <button className="btn bg-black bookPg">Book Now</button>
         </div>
@@ -105,7 +105,7 @@ function NoidaALLPg() {
             <p className="price my-2 my-lg-0 fs-5">₹562 <span className="original-price">₹2362</span> 71% off</p>
           </div>
         </div>
-        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard">
+        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard m-1 m-lg-3">
           <button className="bg-transparent text-black viewDtsl">View Details</button>
           <button className="btn bg-black bookPg">Book Now</button>
         </div>
@@ -125,7 +125,7 @@ function NoidaALLPg() {
             <p className="price my-2 my-lg-0 fs-5">₹562 <span className="original-price">₹2362</span> 71% off</p>
           </div>
         </div>
-        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard">
+        <div className="button-container position-absolute end-0 bottom-0  btnBoxcard m-1 m-lg-3">
           <button className="bg-transparent text-black viewDtsl">View Details</button>
           <button className="btn bg-black bookPg">Book Now</button>
         </div>

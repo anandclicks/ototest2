@@ -30,14 +30,14 @@ function Footer() {
                   <div className="col-md-4 pt-4 flex justify-start justify-lg-center">
                       <div className="contact-info ">
                           <h5 className='fw-bold fs-3'>Useful Links</h5>
-                          <ul className="list-unstyled d-flex flex-column">
-                              <li className="my-1"><i className="ri-arrow-right-line"></i> Home</li>
-                              <li className="my-1"><i className="ri-arrow-right-line"></i> About Us</li>
-                              <li className="my-1"><i className="ri-arrow-right-line"></i> Blog</li>
-                              <li className="my-1"><i className="ri-arrow-right-line"></i>All PG'S for you</li>
-                              <li className="my-1"><i className="ri-arrow-right-line"></i> User Policy</li>
-                              <li className="my-1"><i className="ri-arrow-right-line"></i>PG in Delhi</li>
-                              <li className="my-1"><i className="ri-arrow-right-line"></i>PG in Noida</li>
+                          <ul className="list-unstyled d-flex flex-column mt-2">
+                              <li className=""><i className="ri-arrow-right-line"></i> Home</li>
+                              <li className=""><i className="ri-arrow-right-line"></i> About Us</li>
+                              <li className=""><i className="ri-arrow-right-line"></i> Blog</li>
+                              <li className=""><i className="ri-arrow-right-line"></i>All PG'S for you</li>
+                              <li className=""><i className="ri-arrow-right-line"></i> User Policy</li>
+                              <li className=""><i className="ri-arrow-right-line"></i>PG in Delhi</li>
+                              <li className=""><i className="ri-arrow-right-line"></i>PG in Noida</li>
                           </ul>
                       </div>
                   </div>

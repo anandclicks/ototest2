@@ -5,8 +5,8 @@ function Testimonials() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className='container-flued h80 testimonails h-Auto'>
-<div class="custom-shape-divider-top-1722606489">
+    <div className='container-flued h-[100vh] h-Auto testimonails h-Auto'>
+<div class="custom-shape-divider-top-1722606489 ">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
     </svg>
@@ -16,7 +16,7 @@ function Testimonials() {
     <div className="minicircle"></div>
   </div>
   <div className="col-12 col-lg-8 h-full flex items-center justify-center ps-0 m-0">
-    <div className="testimonialsBox p-0 m-0">
+    <div className="testimonialsBox p-0 mt-5 pt-5">
       <h1 className=' text-center'><span className='hiligtedText pt-5'>Testimonials </span> <br />People are talking.</h1>
       <div className="col-12 col-lg-10 flex row flex-nowrap overflow-hidden testimonialWrapper p-0 justify-center m-0">
       <div className="container w-full  mt-4">

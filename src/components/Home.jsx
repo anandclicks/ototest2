@@ -27,9 +27,9 @@ function Home() {
           <div className="box text-white flex flex-col items-center justify-center w-full">
             <h1 className=' my-3'>Your Stay. Your Way.</h1>
             <p className='p '>Make your own food or take a subsription</p>
-            <div className='searchBox flex justify-center w-full'>
-              <input placeholder='Find the best location for place or work ' type="text" value={''} className='border mt-3  w-50 p-2 py-3 h-full' />
-              <div  className="btn primeryBg border-none rounded-none h-full">NEAR ME <i class="fa-solid fa-magnifying-glass ms-2"></i></div>
+            <div className='searchBox flex justify-center w-full overflow-hidden p-0 mt-3'>
+              <input placeholder='Find the best location for place or work ' type="text" value={''} className='border  w-50 p-2 py-3 h-full homeInput' />
+              <div  className="btn primeryBg  border-none rounded-none h-full m-0 homeBtn">NEAR ME <i class="fa-solid fa-magnifying-glass ms-2"></i></div>
             </div>
           </div>
         </div>
