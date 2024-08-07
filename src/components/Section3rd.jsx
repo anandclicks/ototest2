@@ -5,19 +5,19 @@ function Section3rd() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className='containr-flued h60 section3rd py-5'>
+    <div className='containr-flued h-[70vh] section3rd py-5'>
       <div className="row row2 h-100 flex-wrap ">
         <div className=" col-12 col-lg-6 herordleft  h-100  flex flex-wrap">
         
-         <div className="col-12 col-lg-6 section3rdleftimg p-2">
-            <img className='object-cover h-full w-full rounded-xl' src="/herosectionimg/one.jpg" alt="" />
+         <div className="col-12 col-lg-6 section3rdleftimg p-2 rounded-lg">
+            <img className='object-cover h-full w-full rounded-xl' src="/dist/herosectionimg/one.jpg" alt="" />
           </div>
           <div className="col-12 col-lg-6 h-full d-none d-lg-flex flex-col">
             <div className="col-12   p-2">
-              <img className='rounded-xl ' src="/herosectionimg/two.jpg" alt="" />
+              <img className='rounded-xl ' src="/dist/herosectionimg/two.jpg" alt="" />
             </div>
             <div className="col-12 p-2">
-              <img className='rounded-xl ' src="/herosectionimg/three.jpg" alt="" />
+              <img className='rounded-xl ' src="/dist/herosectionimg/three.jpg" alt="" />
             </div>
           </div>
         
