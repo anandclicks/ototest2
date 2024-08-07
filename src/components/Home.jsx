@@ -28,8 +28,8 @@ function Home() {
             <h1 className=' my-3'>Your Stay. Your Way.</h1>
             <p className='p '>Make your own food or take a subsription</p>
             <div className='searchBox flex justify-center w-full'>
-              <input placeholder='Find the best location for place or work ' type="text" value={''} className='border mt-3  w-50 p-2 py-3' />
-              <div  className="btn primeryBg border-none rounded-none">NEAR ME <i class="fa-solid fa-magnifying-glass ms-2"></i></div>
+              <input placeholder='Find the best location for place or work ' type="text" value={''} className='border mt-3  w-50 p-2 py-3 h-full' />
+              <div  className="btn primeryBg border-none rounded-none h-full">NEAR ME <i class="fa-solid fa-magnifying-glass ms-2"></i></div>
             </div>
           </div>
         </div>
