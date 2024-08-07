@@ -6,29 +6,29 @@ function Prasence() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className='container-flued h25 ourPresence'>
+    <div className='container-flued h-[50vh] ourPresence'>
     
-      <div className="row h-full gap-5 row2 justify-center justify-lg-start">
+      <div className="row h-50 ourPresenceRow row2 justify-center justify-lg-start">
         <h1 className='ourPrasence '>Our Presence</h1>
-        <Link to={'/pg-in-noida'} className="col-lg-2 col-8 h-full images card p-3 my-lg-0 shadow-md">
+        <Link to={'/pg-in-noida'} className=" images prasence-card p-3 my-lg-0 shadow-md">
         <img src="/noida.jpg" alt="" />
-        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase '>Noida</h2>
+        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase  mt-3'>Noida</h2>
         </Link >
-        <Link to={'/pg-in-delhi'} className="col-lg-2 col-8 h-full images card p-3 my-lg-0 shadow-md">
+        <Link to={'/pg-in-delhi'} className=" images prasence-card p-3 my-lg-0 shadow-md">
           <img src="/delhi2.jpg" alt="" />
-          <h2 className='fs-5 fw-bold primeryColor text-center'>DELHI</h2>
+          <h2 className='fs-5 fw-bold primeryColor text-center mt-3'>DELHI</h2>
         </Link >
-        <Link to={'/pg-in-gurugram'} className="col-lg-2 col-8 h-full images card p-3 my-lg-0 shadow-md">
+        <Link to={'/pg-in-gurugram'} className=" images prasence-card p-3 my-lg-0 shadow-md">
         <img src="/gurugram.jpg" alt="" />
-        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase '>gurugram</h2>
+        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase  mt-3'>gurugram</h2>
         </Link >
-        <Link to={'/pg-in-grater-noida'} className="col-lg-2 col-8 h-full images card p-3 my-lg-0 shadow-md">
+        <Link to={'/pg-in-grater-noida'} className=" images prasence-card p-3 my-lg-0 shadow-md">
         <img src="/noida2.jpg" alt="" />
-        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase '>Greater noida</h2>
+        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase  mt-3'>Greater noida</h2>
         </Link >
-        <Link to={'/pg-in-gaziyabad'} className="col-lg-2 col-8 h-full images card p-3 my-lg-0 shadow-md">
+        <Link to={'/pg-in-gaziyabad'} className=" images prasence-card p-3 my-lg-0 shadow-md">
         <img src="/gaziyabad.jpg" alt="" />
-        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase '>Ghaziabad</h2>
+        <h2 className='fs-5 fw-bold primeryColor text-center text-uppercase  mt-3'>Ghaziabad</h2>
         </Link >
       </div>
     </div>

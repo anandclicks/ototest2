@@ -23,7 +23,6 @@ function Navbar() {
           <Link to={'/explorepgs'} className='fwnormal cursor'>Explore PG</Link>
             <Link to={'/aboutus'} className='fwnormal cursor'>About Us</Link>
             <Link to={'/contactUs'}  className='fwnormal cursor'>Contact us</Link> 
-            <Link to={'/'} className='fwnormal cursor'>property@gmail.com</Link>
             <Link to={'/'} className='fwnormal cursor'>+90 000000000</Link>
             <div className="btn primeryBg border-none rounded-none py-2 flex items-center px-4">Book PG</div>
           </ul>
