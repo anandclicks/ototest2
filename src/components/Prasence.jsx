@@ -6,7 +6,7 @@ function Prasence() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className='container-flued h-[50vh] ourPresence'>
+    <div className='container-flued h-[50vh] h-Auto ourPresence'>
     
       <div className="row h-50 ourPresenceRow row2 justify-center justify-lg-start">
         <h1 className='ourPrasence '>Our Presence</h1>

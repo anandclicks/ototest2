@@ -1295,5 +1295,11 @@ h2 {
  .h35two {
   height: inherit !important;
  }
+ .prasence-card {
+  width: 70% !important;
+ }
+ .h-Auto{
+  height: inherit !important;
+ }
 }
 
