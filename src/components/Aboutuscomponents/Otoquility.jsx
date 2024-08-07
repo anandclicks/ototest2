@@ -4,7 +4,7 @@ function Otoquility() {
   return (
     <>
     <div className="container  h-[75vh] h-Auto">
-    <div className="row h-full items-center">
+    <div className="row h-full items-center mt-2 mt-lg-5">
     <div className="col-md-5 mb-4 h-full flex  items-center pe-5">
         <img src="https://wallpapers.com/images/hd/hotel-background-6s9uozn0lpef15n6.jpg" alt="Software Development" className="h-full w-full object-contain me-0 me-lg-5 pe-0 pe-lg-5" />
       </div>  
@@ -20,7 +20,7 @@ function Otoquility() {
     </p>
     
     <div >
-      <button className="btn btn-transparent primeryBg   border-none py-2 px-4 px-4 mt-4">Contact Us </button>
+      <button className="btn btn-transparent primeryBg   border-none py-2 px-4 mt-4">Contact Us </button>
     </div>
    </div>
     </div>
