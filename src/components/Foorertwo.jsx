@@ -41,7 +41,7 @@ function Foorertwo() {
             </ul>
           </div>
           <div className="col-md-3 mb-4">
-            <h6 className="custom-footer-heading">Connect Us</h6>
+            <h6 className="custom-footer-heading fs-3 fwnormal">Connect Us</h6>
             <div class="line-with-dots"><div class="line"></div></div>
            <ul className='flex flex-col gap-2'>
            <Link>Instagram</Link>
