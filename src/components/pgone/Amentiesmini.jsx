@@ -9,7 +9,7 @@ function Amentiesmini() {
   return (
     <div className="amenities container ">
       <h2 className='p24px mb-1 '>Amenities</h2>
-      <div className="row">
+      <div className="row ps-0">
         {amenities.map((amenity, index) => (
           <div className="col-12 col-lg-4 d-flex align-items-center amenity m-0" key={index}>
             <i className={`${amenity.icon} amenity-icon`}></i>

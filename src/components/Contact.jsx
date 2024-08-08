@@ -4,8 +4,8 @@ import React from 'react'
 function Contact() {
   return (
     <>
-   <div className="container-flued  text-white py-5 contactform ">
-   <div className="container mt-5 position-reletive">
+   <div className="container-flued  text-white py-3 py-lg-5 contactform ">
+   <div className="container mt-0 mt-lg-5 position-reletive">
             <div className="row">
                 <div className="col-md-6">
                     <h1 className='my-3'>Need Help?</h1>

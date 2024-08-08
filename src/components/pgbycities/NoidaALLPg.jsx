@@ -11,11 +11,11 @@ function NoidaALLPg() {
  
      <>
       <div className="row2 row h35">
-      <Link to={'/pg-in-noida/Oto-capital-sec44'}  className="hotel-card row p-0 p-lg-2 w-100 col-12 position-relative mt-3 cursor-pointer text-decoration-none text-black">
+      <Link to={'/pg-in-noida/Oto-capital-sec44'}  className="hotel-card row p-0 p-lg-2 w-100 col-12 position-relative mt-0 mt-lg-3 cursor-pointer text-decoration-none text-black">
       <img className="col-12 col-lg-6 thumbnail w-full object-cover" src="/Allcitiesindividualpgs/otowhitehousesec104\IMG-20230816-WA0013.jpg" alt="Hotel Image" />
       <div className="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-between">
         <div className="hotel-details d-flex flex-column justify-content-start justify-content-lg-between">
-          <div className="w-100 my- my-lg-2">
+          <div className="w-100 my-0 my-lg-2">
             <h2 className="p24px">oto capital sec44</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ipsa?</p>
           </div>

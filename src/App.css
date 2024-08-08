@@ -1302,7 +1302,7 @@ z-index: 9;
 }
 .contactform .container {
   position: relative;
-  z-index: 99;
+  z-index: 9;
 }
 
 
@@ -1429,6 +1429,9 @@ z-index: 9;
   }
   .btnBoxcard{
     margin-top: 40% !important;
+    width: 100%;
+    padding-left: 8%;
+    justify-content: space-between;
   }
   .hotel-card {
     height: 880px;
