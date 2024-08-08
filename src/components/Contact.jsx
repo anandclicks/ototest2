@@ -4,8 +4,8 @@ import React from 'react'
 function Contact() {
   return (
     <>
-   <div className="container-flued bg-dark text-white py-5">
-   <div className="container mt-5">
+   <div className="container-flued  text-white py-5 contactform ">
+   <div className="container mt-5 position-reletive z-20">
             <div className="row">
                 <div className="col-md-6">
                     <h1 className='my-3'>Need Help?</h1>
@@ -52,7 +52,7 @@ function Contact() {
             </div>
         </div>
    </div>
-   <div className="container-flued h-[50vh]">
+   <div className="container-flued h-[50vh] my-5">
         <iframe className='h-full w-full' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3504.407924176767!2d77.33931701196641!3d28.557510945521663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMzJzIxLjAiTiA3N8KwMjAnMjEuOCJF!5e0!3m2!1sen!2sin!4v1722497304445!5m2!1sen!2sin"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 

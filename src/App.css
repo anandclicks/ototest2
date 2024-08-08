@@ -1285,8 +1285,24 @@ z-index: 9;
 .contactInputTextaria {
   height: 100px !important;
 }
-
-
+.contactform {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230425/pngtree-the-sulu-hotel-in-pg-png-image_2508733.jpg');
+  background-size: cover;
+  position: relative;
+}
+.contactform::after {
+  height: 100%;
+  width: 100%;
+  background-color: #000000c7;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contactform .container {
+  position: relative;
+  z-index: 99;
+}
 
 
 
