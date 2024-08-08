@@ -55,7 +55,7 @@ function Foorertwo() {
         </div>
       </div>
       <div className="container-flued">
-      <div className="text-center mt-4 bg-black text-white py-4">
+      <div className="text-center mt-4 bg-black text-white py-3">
           <p className="mb-0">&copy; OTO Stays. Copyright 2024 | All Rights Reserved.</p>
         </div>
       </div>
