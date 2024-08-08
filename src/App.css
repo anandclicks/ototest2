@@ -123,9 +123,10 @@ h1,  h4, h5 , h6 {
   position: fixed;
   /* left: -100%; */
   bottom: 0;
+  z-index: 50 !important;
   left: 0;
-  top: 120px;
-  height: calc(100vh - 120px);
+  top: 100px;
+  height: calc(100vh - 100px);
   transition: 0.3s ease-in-out;
   display: none;
 }
@@ -1356,6 +1357,7 @@ z-index: 9;
   }
   mobileMenu {
     display: flex;
+
   }
   .home{
     height: 80vh;

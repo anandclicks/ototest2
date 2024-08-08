@@ -27,9 +27,6 @@ import Otoscouthousesec45 from './components/towpg/Otoscouthousesec45';
 import Otowhitehousesec104 from './components/towpg/Otowhitehousesec104';
 import Aboutus from './components/Aboutuscomponents/Aboutus';
 import Otoquility from './components/Aboutuscomponents/Otoquility';
-import Prasencetwo from './components/Prasencetwo';
-import Listproperty from './components/Listproperty';
-import PGListings from './components/PGListings';
 import Foorertwo from './components/Foorertwo';
 import Contact from './components/Contact';
 
