@@ -8,7 +8,7 @@ function Amentiesmini() {
   { icon: 'fas fa-bolt', text: '24*7 power backup' },]
   return (
     <div className="amenities container ">
-      <h2 className='fs-4 mb-1 '>Amenities</h2>
+      <h2 className='p24px mb-1 '>Amenities</h2>
       <div className="row">
         {amenities.map((amenity, index) => (
           <div className="col-12 col-lg-4 d-flex align-items-center amenity m-0" key={index}>

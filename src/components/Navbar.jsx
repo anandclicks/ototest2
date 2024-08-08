@@ -30,7 +30,7 @@ function Navbar() {
           </ul></div>
         <div className="col-lg-2 col-6 navRight justify-end ">
             <div onClick={()=> setFormstate(true)} className="btn primeryBg border-none rounded-none py-2 flex items-center px-4 fw-light  d-none d-lg-flex">List Property</div>
-          <i onClick={toggleNavstate} className="fa-solid fa-bars menuBar fs-1 d-flex d-lg-none me-3 me-lg-0"></i>
+          <i onClick={toggleNavstate} className="fa-solid fa-bars menuBar p24px d-flex d-lg-none me-3 me-lg-0"></i>
           <div className={`col-12  d-flex d-lg-flex mobileMenu d-flex d-lg-none flex-column align-items-start justify-content-between ${Navstate ? 'navOn' : 'navOff' }`}>
       <ul className="list-unstyled d-flex flex-column bg-black gap-3 p-3 col-8 h-100 shadow-lg text-white">
       <Link to={'/explorepgs'} >Explore PG</Link>

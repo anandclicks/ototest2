@@ -28,7 +28,7 @@ function Otoroyalwinsec104() {
         </div>
         <div className="col-12 row row2 py-3 ">
           <div className="col-12 col-lg-8 ps-4 ps-lg-0 ">
-            <h2 className='fwnormal fs-1 mt-3'>
+            <h2 className='fwnormal p24px mt-3'>
             Oto royalwin sec104
             </h2>
             <p className='p text-black-50 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, repellendus?</p>
@@ -38,7 +38,7 @@ function Otoroyalwinsec104() {
           <div className="col-12 col-lg-4 flex flex-col items-end  pt-5 ">
             
           <form className='col-lg-10 shadow-md p-2 rounded-none h-auto col-12 onejsxform' method="post">
-          <h2 className='fs-3 fw-bold my-3'>Get persolally connect with us.</h2>
+          <h2 className='p24px fw-bold my-3'>Get persolally connect with us.</h2>
           <div className="form-group">
             <input type="text" className="form-control mb-3 bg-transparent text-white py-3" name="" placeholder="Full name" value={''}/>
           </div>

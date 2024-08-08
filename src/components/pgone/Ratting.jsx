@@ -40,10 +40,10 @@ function Ratting() {
     </div>
   </div> */}
       <div className="container mt-5">
-        <h2 className='fs-3 fw-bold'>Ratings and reviews</h2>
+        <h2 className='p24px fw-bold'>Ratings and reviews</h2>
         <div className="rating-summary">
           <div className="d-flex align-items-center mb-2">
-            <span className="badge badge-success bg-black  p-2 mt-2 fs-5">4.6 ★</span>
+            <span className="badge badge-success bg-black  p-2 mt-2 p24px">4.6 ★</span>
             
           </div>
           <div className="rating-breakdown">
@@ -184,7 +184,7 @@ function Ratting() {
   </div>
   <div className="nearby-card custom-card-shadow my-4">
       <div className="nearby-card-body p-4">
-        <h5 className="nearby-card-title mb-3 fs-3 fw-bold">Nearby Attractions</h5>
+        <h5 className="nearby-card-title mb-3 p24px fw-bold">Nearby Attractions</h5>
         <ul className="nearby-card-list list-unstyled">
           <li className="nearby-card-item">
             <span role="img" aria-label="location">📍</span> 20Mtr om deiry

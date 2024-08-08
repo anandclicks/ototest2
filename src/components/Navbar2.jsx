@@ -24,7 +24,7 @@ function Navbar2() {
             <Link to={'/'} className='fwnormal cursor'>+90 000000000</Link>
             <div className="btn primeryBg border-none rounded-none py-2 px-4">List  PG</div>
           </ul>
-          <i onClick={toggleNavstate} className="fa-solid fa-bars menuBar fs-1 d-flex d-lg-none me-3 me-lg-0"></i>
+          <i onClick={toggleNavstate} className="fa-solid fa-bars menuBar p24px d-flex d-lg-none me-3 me-lg-0"></i>
           <div className={`col-12  d-flex d-lg-flex mobileMenu d-flex d-lg-none flex-column align-items-start justify-content-between ${Navstate ? 'navOn' : 'navOff' }`}>
       <ul className="list-unstyled d-flex flex-column bg-black gap-3 p-3 col-8 h-100 shadow-lg text-white">
       <Link to={'/explorepgs'} >Explore PG</Link>

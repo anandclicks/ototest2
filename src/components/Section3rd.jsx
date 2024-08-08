@@ -30,8 +30,8 @@ function Section3rd() {
           </div>
         </div>
       </div>
-      <div className="flex w-100  p-4 fs-5 bgMainLight text-white  mt-5 d-none">
-            <div className="container flex justify-between fs-3">
+      <div className="flex w-100  p-4 p24px bgMainLight text-white  mt-5 d-none">
+            <div className="container flex justify-between p24px">
             <div className='text-center textshadow'>
               10K <br /> Customers
             </div>

@@ -12,12 +12,7 @@ body, html {
   height: 100%;
   width: 100%;
 }
-.t24px {
-  font-size: 24px !important;
-}
-.t15px {
-  font-size: 15px !important;
-}
+
 .main {
   height: 100vh;
   min-height: 100vh;
@@ -48,9 +43,7 @@ body, html {
   background-color:#14658A!important;
   color: #fff !important;
 }
-.p {
-  font-size: 20px;
-}
+
 .bgMainLight{
   background: linear-gradient(to left, #14658a,#14658a80, #14658a);
 }
@@ -58,9 +51,15 @@ body, html {
   color: #14658A!important;
 }
 h1 {
-  font-size:  2.5vw !important;
+  font-size:  24px !important;
   font-weight: 600 !important;
   color: #000;
+}
+.t24px {
+  font-size: 24px !important;
+}
+.t15px {
+  font-size: 15px !important;
 }
 .ourPrasence {
   font-size: 40px !important;

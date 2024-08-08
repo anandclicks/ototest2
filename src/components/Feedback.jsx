@@ -8,25 +8,25 @@ function Feedback() {
         <p className='text-uppercase text-center '>See what peaple say about us</p>
         <div className="col-10 reviewCard px-3 text-black p flex justify-center items-center text-center flex-col ">
           <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt quas officiis voluptate veritatis corrupti? Odio voluptas officia, ea at minus maiores facilis.</q>
-          <i class="fa-solid fa-user fs-3 primeryColor mt-2 p-2 border rounded-circle"></i>
+          <i class="fa-solid fa-user p24px primeryColor mt-2 p-2 border rounded-circle"></i>
           <h2>Lorem, ipsum.</h2>
           <small className='text-dark'>Lorem ipsum dolor sit amet.</small>
         </div>
         <div className="col-10 reviewCard px-3 text-black p flex justify-center items-center text-center flex-col ">
         <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt quas officiis voluptate veritatis corrupti? Odio voluptas officia, ea at minus maiores facilis.</q>
-          <i class="fa-solid fa-user fs-3 primeryColor mt-2 p-2 border rounded-circle"></i>
+          <i class="fa-solid fa-user p24px primeryColor mt-2 p-2 border rounded-circle"></i>
           <h2>Lorem, ipsum.</h2>
           <small className='text-dark'>Lorem ipsum dolor sit amet.</small>
         </div>
         <div className="col-10 reviewCard px-3 text-black p flex justify-center items-center text-center flex-col ">
         <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt quas officiis voluptate veritatis corrupti? Odio voluptas officia, ea at minus maiores facilis.</q>
-          <i class="fa-solid fa-user fs-3 primeryColor mt-2 p-2 border rounded-circle"></i>
+          <i class="fa-solid fa-user p24px primeryColor mt-2 p-2 border rounded-circle"></i>
           <h2>Lorem, ipsum.</h2>
           <small className='text-dark'>Lorem ipsum dolor sit amet.</small>
         </div>
         <div className="col-10 reviewCard px-3 text-black p flex justify-center items-center text-center flex-col ">
         <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt quas officiis voluptate veritatis corrupti? Odio voluptas officia, ea at minus maiores facilis.</q>
-          <i class="fa-solid fa-user fs-3 primeryColor mt-2 p-2 border rounded-circle"></i>
+          <i class="fa-solid fa-user p24px primeryColor mt-2 p-2 border rounded-circle"></i>
           <h2>Lorem, ipsum.</h2>
           <small className='text-dark'>Lorem ipsum dolor sit amet.</small>
         </div>

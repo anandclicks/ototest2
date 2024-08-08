@@ -16,8 +16,8 @@ function Otoquility() {
       </div>  
    <div className='col-lg-7'>
    <div className=" mb-4">
-      <h2 className='fs-5 my-3'>Oto Stays: Where Your Home Becomes a Community...</h2>
-      <h1 className='fs-1'>
+      <h2 className='p24px my-3'>Oto Stays: Where Your Home Becomes a Community...</h2>
+      <h1 className='p24px'>
       Welcome to <span className='highlight px-2'>Oto Stays</span> Redefining Co-Living for a Connected, Thriving Community
       </h1>
     </div>

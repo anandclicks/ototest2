@@ -59,7 +59,7 @@ function Testimonials() {
      </div>
      
       </div>
-      <div className="col-12 w-full flex justify-center gap-5 fs-4 fw-l testimonialCtrlicon"> <i class="p-3 rounded-circle border border-black cursor-pointer fa-solid fa-backward"></i><i class="p-3 rounded-circle border border-black cursor-pointer fa-solid fa-forward"></i></div>
+      <div className="col-12 w-full flex justify-center gap-5 p24px fw-l testimonialCtrlicon"> <i class="p-3 rounded-circle border border-black cursor-pointer fa-solid fa-backward"></i><i class="p-3 rounded-circle border border-black cursor-pointer fa-solid fa-forward"></i></div>
     </div>
   </div>
 </div>

@@ -26,7 +26,7 @@ const amenities = [
 const Amenities = () => {
   return (
     <div className="amenities container pt-3">
-      <h2 className='fs-3 fw-bold mb-2'>Amenities</h2>
+      <h2 className='p24px fw-bold mb-2'>Amenities</h2>
       <div className="row">
         {amenities.map((amenity, index) => (
           <div className="col-12 col-lg-4 d-flex align-items-center amenity" key={index}>

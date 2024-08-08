@@ -45,7 +45,7 @@ function Gaziyabad() {
            <p>security deposit</p>
           </div>
           </div>
-          <div className="flex w-100 justify-between p-2 p-lg-5 ps-lg-0 fs-5 ">
+          <div className="flex w-100 justify-between p-2 p-lg-5 ps-lg-0 p24px ">
             <div className='text-center'>
               10K <br /> Customers
             </div>

@@ -13,7 +13,7 @@ function PGListings() {
             </div>
             <div className="card-body rounded-xl overflow-hidden shadow-xl p-3">
              <div className='border-b py-2'>
-             <h5 className="card-title fwnormal fs-5">Oto Royal Win Sec104</h5>
+             <h5 className="card-title fwnormal p24px">Oto Royal Win Sec104</h5>
               <p className="card-text">Lorem ipsum dolor sit amet.</p>
              </div>
               <div className='flex justify-between p-2'>
@@ -33,7 +33,7 @@ function PGListings() {
             </div>
             <div className="card-body rounded-xl overflow-hidden shadow-xl p-3">
              <div className='border-b py-2'>
-             <h5 className="card-title fwnormal fs-5">Oto Bloom Sec45</h5>
+             <h5 className="card-title fwnormal p24px">Oto Bloom Sec45</h5>
               <p className="card-text">Lorem ipsum dolor sit amet.</p>
              </div>
               <div className='flex justify-between p-2'>
@@ -53,7 +53,7 @@ function PGListings() {
             </div>
             <div className="card-body rounded-xl overflow-hidden shadow-xl p-3">
              <div className='border-b py-2'>
-             <h5 className="card-title fwnormal fs-5">Oto Royal Town Sec45</h5>
+             <h5 className="card-title fwnormal p24px">Oto Royal Town Sec45</h5>
               <p className="card-text">Lorem ipsum dolor sit amet.</p>
              </div>
               <div className='flex justify-between p-2'>
@@ -73,7 +73,7 @@ function PGListings() {
             </div>
             <div className="card-body rounded-xl overflow-hidden shadow-xl p-3">
              <div className='border-b py-2'>
-             <h5 className="card-title fwnormal fs-5">Oto Capital Sec44</h5>
+             <h5 className="card-title fwnormal p24px">Oto Capital Sec44</h5>
               <p className="card-text">Lorem ipsum dolor sit amet.</p>
              </div>
               <div className='flex justify-between p-2'>
