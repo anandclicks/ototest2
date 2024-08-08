@@ -1369,9 +1369,14 @@ z-index: 9;
     width: 65%;
   }
   .searchBox .btn {
-   
     justify-content: center;
     align-items: center;
+  }
+  .searchBox input {
+    width: 75% !important;
+  }
+  .searchBox .btn {
+    width: 40% !important;
   }
   .p {
     font-size: 18px;
