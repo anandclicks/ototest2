@@ -30,6 +30,7 @@ import Otoquility from './components/Aboutuscomponents/Otoquility';
 import Prasencetwo from './components/Prasencetwo';
 import Listproperty from './components/Listproperty';
 import PGListings from './components/PGListings';
+import Foorertwo from './components/Foorertwo';
 
 function App() {
   useEffect(() => {
@@ -61,7 +62,7 @@ function App() {
             <Route path='/pg-in-noida/Oto-scout-house-sec45' element={<><Otoscouthousesec45 /></>} />
             <Route path='/pg-in-noida/Oto-white-houses-sec104' element={<><Otowhitehousesec104 /></>} />
           </Routes>
-          <Footer />
+          <Foorertwo/>
         </UserContextProvider>
       </div>
     </>

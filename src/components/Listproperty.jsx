@@ -26,7 +26,7 @@ function Listproperty() {
         <input class="form-control py-3" type="file" placeholder="Attach property images*" name="" id=""/>
       </div>
       <button type="submit" class="btn primeryBg btn-block py-2 px-5 w-100">Submit</button>
-    <p class="mt-3 text-center">Need Assistance? Call at <a class="text-decoration-none text-dark" href="tel:+91 9599050903">+91 9599050903</a></p>
+    <p class="mt-3 text-center">Need Assistance? Call at <a class="text-decoration-none text-dark" href="tel:+91 9599050903">+91 7415051778</a></p>
     </form>
       </div>
       </div>
