@@ -22,7 +22,7 @@ function Navbar() {
          <img className='logo rounded-5' src="/otologo.png" alt="" />
          </Link>
         </div>
-        <div className="col-lg-6 d-lg-flex d-none items-center"> <ul className='list-unstyld flex gap-5  d-lg-flex d-none fwnormal'>
+        <div className="col-lg-6 d-lg-flex d-none items-center"> <ul className='list-unstyld flex gap-5  d-lg-flex d-none '>
           <Link to={'/explorepgs'} className=' cursor navbarLink text-black'>Explore PG</Link>
             <Link to={'/aboutus'} className=' cursor navbarLink text-black'>About Us</Link>
             <Link to={'/contactUs'}  className=' cursor navbarLink text-black'>Contact us</Link> 
