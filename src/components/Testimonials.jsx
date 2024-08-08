@@ -18,9 +18,8 @@ function Testimonials() {
   <div className="col-12 col-lg-8 h-full flex items-center justify-center ps-0 m-0">
     <div className="testimonialsBox p-0 mt-5 pt-5">
       <h1 className=' text-center'><span className='hiligtedText pt-5'>Testimonials </span> <br />People are talking.</h1>
-      <div className="col-12 col-lg-10 flex row flex-nowrap overflow-hidden testimonialWrapper p-0 justify-center m-0">
-      <div className="container w-full  mt-4">
-    <div className="review p-3 mb-3 border rounded">
+      <div className="col-12 flex row flex-nowrap overflow-hidden testimonialWrapper p-0 justify-end m-0">
+    <div className="review p-3 mb-3 border rounded  col-12 col-lg-10">
       <div className="d-flex justify-content-between">
         <div>
           <h5 className="mb-1"><i class="fa-solid fa-user"></i> Forever</h5>
@@ -38,11 +37,15 @@ function Testimonials() {
         The food at this hotel is absolutely delicious, with a wide variety of options to cater to every taste. The check-in experience was smooth and hassle-free, making me feel welcome and valued. The staff were extremely helpful and friendly, always going above and beyond to ensure my stay was comfortable and enjoyable. I highly recommend this hotel.
       </p>
     </div>
-    <div className="review p-3 mb-3 border rounded">
+ 
+     
+      </div>
+      <div className="col-12 flex row flex-nowrap overflow-hidden testimonialWrapper p-0 justify-end m-0">
+    <div className="review p-3 mb-3 border rounded  col-12 col-lg-10">
       <div className="d-flex justify-content-between">
         <div>
-          <h5 className="mb-1"><i class="fa-solid fa-user"></i> Surya Prasad</h5>
-          <small>19 Jul 2024</small>
+          <h5 className="mb-1"><i class="fa-solid fa-user"></i> Forever</h5>
+          <small>29 Apr 2024</small>
         </div>
         <div className="text-success">
           <span>&#9733;</span>
@@ -53,10 +56,10 @@ function Testimonials() {
         </div>
       </div>
       <p className="mt-2">
-        I had a wonderful check-in experience at this hotel. The staff was friendly and efficient, making the process seamless. They greeted me with a smile and ensured that I had everything I needed. My stay started on a positive note, and I am already looking forward to the rest of my stay here. Highly recommended!
+        The food at this hotel is absolutely delicious, with a wide variety of options to cater to every taste. The check-in experience was smooth and hassle-free, making me feel welcome and valued. The staff were extremely helpful and friendly, always going above and beyond to ensure my stay was comfortable and enjoyable. I highly recommend this hotel.
       </p>
     </div>
-     </div>
+ 
      
       </div>
       <div className="col-12 w-full flex justify-center gap-5 p24px fw-l testimonialCtrlicon"> <i class="p-3 rounded-circle border border-black cursor-pointer fa-solid fa-backward"></i><i class="p-3 rounded-circle border border-black cursor-pointer fa-solid fa-forward"></i></div>
