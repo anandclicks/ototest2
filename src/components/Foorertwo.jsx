@@ -9,7 +9,7 @@ function Foorertwo() {
       <div className="container">
         <div className="row">
           <div className="col-md-3 mb-4 ">
-            <h6 className="custom-footer-heading p-3 t24px ps-0 fwnormal">Locate <span className="custom-footer-highlight">Us</span></h6>
+            <h6 className="custom-footer-heading p-3 pt-0 t24px ps-0 fwnormal">Locate <span className="custom-footer-highlight">Us</span></h6>
             <p className='flex gap-2 t15px'>
               <i className="fas fa-map-marker-alt fs-4"></i> 
               <p className='t15px'>Nearby Radha public school <br />
