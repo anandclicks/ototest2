@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import GreaterNoida from '../citylist/GreaterNoida'
 import GaziyabadALlpg from '../pgbycities/GaziyabadAllPg'
 import Ratting from '../pgone/Ratting'
+import PGListings from '../PGListings'
 
 
 function Otoroyaltownsec45() {
@@ -60,8 +61,8 @@ function Otoroyaltownsec45() {
           </div>
         </div>
       </div>
-      <NoidaALLPg/>
     </div>
+    <PGListings/>
     </>
   )
 }

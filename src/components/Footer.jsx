@@ -1,5 +1,7 @@
 import React,{useEffect,useContext} from 'react'
+
 import { UserContext } from '../../ContextApi/Usercontext'
+import { Link } from 'react-router-dom'
 function Footer() {
   const {setNavstate} = useContext(UserContext)
   useEffect(()=> {
@@ -11,7 +13,7 @@ function Footer() {
       <footer className='w-full text-white primeryBg'>
             <div className="container h-100">
               <div className="row  h-100 ">
-                  <div className="col-md-4">
+                  <div className="col-md-3">
                       <div className="content-box">
                        <img className='flogo' src="/otologo2.png" alt="oto"/>
                           <p className='mt-4`'>
@@ -27,7 +29,7 @@ function Footer() {
                           </div>
                       </div>
                   </div>
-                  <div className="col-md-4 pt-4 flex justify-start justify-lg-center">
+                  <div className="col-md-3 pt-4 flex justify-start justify-lg-center">
                       <div className="contact-info ">
                           <h5 className='fw-bold fs-3'>Useful Links</h5>
                           <ul className="list-unstyled d-flex flex-column mt-2">
@@ -41,7 +43,17 @@ function Footer() {
                           </ul>
                       </div>
                   </div>
-                  <div className="col-md-4 pt-3">
+                  <div className="col-md-3 col-12 pt-4">
+                    <h3 className='fs-3 fw-bold'>Explore PG</h3>
+                    <ul className='flex flex-col'>
+                      <li>PG In Delhi</li>
+                      <li>PG In Noida</li>
+                      <li>PG In Gurugram</li>
+                      <li>PG In Gaziyabad</li>
+                      <li>PG In Greater Noida</li>
+                    </ul>
+                  </div>
+                  <div className="col-md-3 pt-3">
                     <h5 className='fw-bold fs-3'>Contact Information</h5>
                     <div className="d-flex gap-2 align-items-center my-3">
                       <i className="fa-solid fa-map fs-2"></i>

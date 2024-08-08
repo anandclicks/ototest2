@@ -24,6 +24,7 @@ body, html {
   height: 100px;
   /* border-bottom: 2px solid #b8b8b8; */
   box-shadow: 0px 0px 10px #00000054;
+  position: relative;
 }
 .navRight, .navLeft {
   height: 100%;
@@ -32,6 +33,7 @@ body, html {
 }
 .nnavbarLink {
   font-size: 16px !important;
+
 }
 .navLeft .logo {
   width: 100px;
@@ -88,7 +90,7 @@ h1 {
 }
 .fwnormal {
   font-weight: 600 !important;
-  font-size: 19px;
+  font-size: 16px;
 }
 .row2{
   padding: 0px 200px !important;
@@ -1186,6 +1188,38 @@ z-index: 9;
 
 .custom-shape-divider-top-1723052210 .shape-fill {
   fill: #ffffff;
+}
+.addPropertyForm{
+  right: 0;
+  margin-right: 00%;
+  top: 0;
+  z-index: 999;
+  background-color: #00000065;
+  transition: 0.3s ;
+}
+.addPropertyForm form input {
+  border-radius: none;
+  margin: 10px;
+}
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+.cardImg img{
+  width:100% ;
+  height: 300px;
 }
 
 

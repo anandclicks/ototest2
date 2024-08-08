@@ -8,7 +8,7 @@ function Navbar2() {
   };
   const {Navstate,setNavstate} = useContext(UserContext)
   return (
-    <div className='container-flued  navMain mb-5 position-reletive  w-full bg-white nav2 shadow-none'>
+    <div className='container-flued  navMain mb-0 position-reletive  w-full bg-white nav2 shadow-none'>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       <div className="row row2 h-full">
         <div className="col-lg-4 col-6 navLeft">

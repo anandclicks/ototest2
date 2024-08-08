@@ -1,5 +1,6 @@
-import React, { useContext, useEffect,useState } from 'react'
+import React, { useEffect } from 'react'
 import { UserContext } from '../../ContextApi/Usercontext'
+import Listproperty from './Listproperty';
 
 function Home() {
   useEffect(() => {
@@ -8,6 +9,7 @@ function Home() {
 
   
   return (
+    <>
     <div className='container-flued home position-reletive overflow-hidden'>
       <div class="custom-shape-divider-bottom-1722579871">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -35,6 +37,7 @@ function Home() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
