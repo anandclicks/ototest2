@@ -4,45 +4,58 @@ import React from 'react'
 function Contact() {
   return (
     <>
-    <div className='h60two contact py-5'>
-      <div className="row row2">
-        <div className="col-12 col-lg-6 formLeft d-flex items-center my-3 my-lg-0">
-          <div className="box">
-            <h1>Get in <span className='hiligtedText'>Touch</span></h1>
-            <p className='p'>Our best home are selling fast! <br /> Ger personally connected with us.</p>
-          </div>
-        </div>
-        <div className="col-12 col-lg-6 formRight flex justify-end my-3 my-lg-0">
-        <div className="contianer h-100 w-full ">
-<div className="container d-flex h-100 justify-content-center align-items-center">
-   
-      <div className="form-container primeryShadow p-4 col-12 col-lg-7 rounded-4 bg-white">  
-        <h2 className="text-center mb-4">Get persolally connect with us.</h2>
-        <form action="" method="post">
-          <div className="form-group">
-            
-            <input type="text" className="form-control mb-3 bg-transparent text-white py-3" name="" placeholder="Full name" value={''}/>
-          </div>
-          <div className="form-group">
-             
-              <input type="text" className="form-control mb-3 bg-transparent text-white py-3" name="" placeholder="Email id" value={''}/>
-            </div>    
-          <div className="form-group">
-            
-            <input type="email" className="form-control mb-3 bg-transparent text-white py-3" name="" aria-describedby="emailHelp" placeholder="Mobile number" value={''}/>
-          </div>
-          <div className="form-group">
-            <input type="text" className="form-control mb-3 bg-transparent text-white py-3" name="" placeholder="Select city" value={''}/>
-          </div>
-          <button type="submit" className="btn primeryBg btn-block w-100 py-3 mt-3 mb-3">Submit</button>
-        </form>
-      </div>
-
+   <div className="container-flued bg-dark text-white py-5">
+   <div className="container mt-5">
+            <div className="row">
+                <div className="col-md-6">
+                    <h1 className='my-3'>Need Help?</h1>
+                    <h2 className='fs-3 fwnormal'>Contact Us Now</h2>
+                    <p className='my-3'>If you have got any questions, please do not hesitate to send us a message. We will reply shortly as soon as possible.</p>
+                    <form>
+                        <div className="mb-3">
+                            <input type="text" className="form-control contactInput" placeholder="Your Name" />
+                        </div>
+                       <div className='flex w-full gap-3'>
+                       <div className="mb-3 w-50">
+                            <input type="email" className="form-control contactInput" placeholder="Email Address" />
+                        </div>
+                        <div className="mb-3 w-50">
+                            <input type="text" className="form-control contactInput" placeholder="Phone Number" />
+                        </div>
+                       </div>
+                        <div className="mb-3">
+                            <textarea className="form-control contactInput contactInputTextaria" placeholder="Your Message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" className="btn primeryBg border-none rounded-none px-3 py-3">Submit Now</button>
+                    </form>
+                </div>
+                <div className="col-md-6 flex  flex-col">
+                  <div>
+                  <h1 className='fs-2'>Contact information</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, perferendis!</p>
+                  </div>
+             <div className="box mt-0 mt-lg-5 ms-0 ms-lg-5">
+              <div className='flex gap-2 m-4 ms-0'>
+              <i class="fa-solid fa-map bg-white text-black p-3 rounded-circle"></i>Nearby Radha public school <br />
+              Nearby - Esi hospital Sector 22 Noida
+              </div>
+              <div className=' flex flex-col gap-4'>
+                <div >
+                <i class="fa-solid fa-envelope bg-white text-black p-3 rounded-circle me-2"></i> kayanthusainotostays@gmail.com
+                </div>
+                <div>
+                <i class="fa-solid fa-phone bg-white text-black p-3 rounded-circle me-2"></i>+91 7415051778
+                </div>
+              </div>
+             </div>
+                </div>
             </div>
         </div>
+   </div>
+   <div className="container-flued h-[50vh]">
+        <iframe className='h-full w-full' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3504.407924176767!2d77.33931701196641!3d28.557510945521663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMzJzIxLjAiTiA3N8KwMjAnMjEuOCJF!5e0!3m2!1sen!2sin!4v1722497304445!5m2!1sen!2sin"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-      </div>
-    </div>
+
     </>
   )
 }

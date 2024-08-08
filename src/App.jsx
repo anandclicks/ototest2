@@ -47,7 +47,7 @@ function App() {
             {/* this is index route */}
             <Route index element={<><Home /><Prasence /><Otoquility/><Section3rd /><Testimonials /><Whychooseustwo /></>} />
             <Route path='/aboutus' element={<><Navbar2 /><Aboutus/></>} />
-            <Route path='/contactUs' element={<><Navbar2/></>}/>
+            <Route path='/contactUs' element={<><Navbar2/><Contact/></>}/>
             {/* this route is for explore pg */}
             <Route path='/explorepgs' element={<><Allpg /></>} />
             {/* these are all routes for individual cities */}

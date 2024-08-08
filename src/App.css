@@ -1275,9 +1275,16 @@ z-index: 9;
 }
 
 /* contact us new css  */
+.contactInput{
+  background-color: #1d1d1d;
+  border: 1px solid #252525 !important;
+  border-radius: 0px !important;
+  height: 60px !important;
+}
 
-
-
+.contactInputTextaria {
+  height: 100px !important;
+}
 
 
 

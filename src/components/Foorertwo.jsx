@@ -16,7 +16,7 @@ function Foorertwo() {
               Nearby - Esi hospital Sector 22 Noida</p>
               </p>
             <p><i className="fas fa-envelope"></i> kayanthusainotostays@gmail.com</p>
-            <p><i className="fas fa-phone"></i> +91-98 6736 3886</p>
+            <p><i className="fas fa-phone"></i> +91 7415051778</p>
           </div>
           <div className="col-md-3 mb-4">
             <h6 className="custom-footer-heading t24px fwnormal">Useful Links</h6>
