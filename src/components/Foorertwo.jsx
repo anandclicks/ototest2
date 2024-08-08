@@ -8,20 +8,20 @@ function Foorertwo() {
 <footer className="custom-footer bg-light text-dark pt-5">
       <div className="container">
         <div className="row">
-          <div className="col-md-3 mb-4 pe-5">
-            <h6 className="custom-footer-heading p-3 fs-2 ps-0 fwnormal">Locate <span className="custom-footer-highlight">Us</span></h6>
-            <p className='flex gap-2'>
+          <div className="col-md-3 mb-4 ">
+            <h6 className="custom-footer-heading p-3 t24px ps-0 fwnormal">Locate <span className="custom-footer-highlight">Us</span></h6>
+            <p className='flex gap-2 t15px'>
               <i className="fas fa-map-marker-alt fs-4"></i> 
-              <p>Nearby Radha public school 
+              <p className='t15px'>Nearby Radha public school <br />
               Nearby - Esi hospital Sector 22 Noida</p>
               </p>
             <p><i className="fas fa-envelope"></i> kayanthusainotostays@gmail.com</p>
             <p><i className="fas fa-phone"></i> +91-98 6736 3886</p>
           </div>
           <div className="col-md-3 mb-4">
-            <h6 className="custom-footer-heading fs-3 fwnormal">Useful Links</h6>
+            <h6 className="custom-footer-heading t24px fwnormal">Useful Links</h6>
             <div class="line-with-dots"><div class="line"></div></div>
-            <ul className="custom-footer-list list-unstyled flex flex-col gap-2">
+            <ul className="custom-footer-list list-unstyled flex flex-col gap-2 t15px">
               <Link to={'/'}>Home</Link>
               <Link to={'/aboutus'}>About us</Link>
               <Link to={'/explorepgs'}>Explore PG</Link>
@@ -30,9 +30,9 @@ function Foorertwo() {
             </ul>
           </div>
           <div className="col-md-3 mb-4">
-            <h6 className="custom-footer-heading fs-3 fwnormal">Explore PG</h6>
+            <h6 className="custom-footer-heading t24px fwnormal">Explore PG</h6>
             <div class="line-with-dots"><div class="line"></div></div>
-            <ul className="custom-footer-list list-unstyled flex flex-col gap-2">
+            <ul className="custom-footer-list list-unstyled flex flex-col gap-2 t15px">
               <Link to={'/pg-in-delhi'}>PG In Delhi</Link>
               <Link to={'/pg-in-noida'}>PG In Noida</Link>
               <Link to={'/pg-in-gurugram'}>PG In Gurugram</Link>
@@ -41,9 +41,9 @@ function Foorertwo() {
             </ul>
           </div>
           <div className="col-md-3 mb-4">
-            <h6 className="custom-footer-heading fs-3 fwnormal">Connect Us</h6>
+            <h6 className="custom-footer-heading  fwnormal t24px">Connect Us</h6>
             <div class="line-with-dots"><div class="line"></div></div>
-           <ul className='flex flex-col gap-2'>
+           <ul className='flex flex-col gap-2 t15px'>
            <Link>Instagram</Link>
             <Link>Facebook</Link>
             <Link>Linkdin</Link>

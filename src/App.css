@@ -12,6 +12,12 @@ body, html {
   height: 100%;
   width: 100%;
 }
+.t24px {
+  font-size: 24px !important;
+}
+.t15px {
+  font-size: 15px !important;
+}
 .main {
   height: 100vh;
   min-height: 100vh;
@@ -1262,13 +1268,14 @@ z-index: 9;
   content: '• • •';
   color: #14658ad2;
   margin-right: 10px; /* Adjust spacing as needed */
-  font-size: 22px; /* Adjust size as needed */
+  font-size: 19px; /* Adjust size as needed */
 }
 .line {
-  border-bottom: 4px solid #14658ac4; /* Adjust thickness and color as needed */
+  border-bottom: 2px solid #14658ac4; /* Adjust thickness and color as needed */
   width: 20%; /* Adjust width as needed */
 }
 
+/* contact us new css  */
 
 
 

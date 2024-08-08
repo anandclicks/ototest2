@@ -1,7 +1,9 @@
 import React from 'react'
 
+
 function Contact() {
   return (
+    <>
     <div className='h60two contact py-5'>
       <div className="row row2">
         <div className="col-12 col-lg-6 formLeft d-flex items-center my-3 my-lg-0">
@@ -41,6 +43,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

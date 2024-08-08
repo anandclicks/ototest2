@@ -31,6 +31,7 @@ import Prasencetwo from './components/Prasencetwo';
 import Listproperty from './components/Listproperty';
 import PGListings from './components/PGListings';
 import Foorertwo from './components/Foorertwo';
+import Contact from './components/Contact';
 
 function App() {
   useEffect(() => {
@@ -46,6 +47,7 @@ function App() {
             {/* this is index route */}
             <Route index element={<><Home /><Prasence /><Otoquility/><Section3rd /><Testimonials /><Whychooseustwo /></>} />
             <Route path='/aboutus' element={<><Navbar2 /><Aboutus/></>} />
+            <Route path='/contactUs' element={<><Navbar2/></>}/>
             {/* this route is for explore pg */}
             <Route path='/explorepgs' element={<><Allpg /></>} />
             {/* these are all routes for individual cities */}
