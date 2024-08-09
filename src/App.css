@@ -1287,27 +1287,49 @@ z-index: 9;
   height: 100px !important;
 }
 .contactform {
-  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230425/pngtree-the-sulu-hotel-in-pg-png-image_2508733.jpg');
+  background-image: url('/contactusbg.png');
   background-size: cover;
   position: relative;
+  background-color: #000;
 }
 .contactform::after {
-  height: 100%;
-  width: 100%;
-  background-color: #000000c7;
+  height:25vw;
+  width:25vw;
+ background: linear-gradient(#000,#14658a62);
+  filter: blur(10px);
   content: '';
   position: absolute;
   top: 0;
+  margin-top: -5%;
+  margin-left: -5%;
   left: 0;
+  border-radius: 50%;
+  animation: animetwo 3s infinite alternate;
+}
+@keyframes animetwo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .contactform .container {
   position: relative;
   z-index: 9;
 }
 
+/* testimonail slider  */
+.semiwrapper{
+  transition: 0.4s;
+  height: 250px;
+  align-items: center;
 
+}
 
-
+.feedback{
+  box-shadow: 0px 0px 10px #0000008e;
+}
 
 
 
@@ -1453,6 +1475,9 @@ z-index: 9;
  }
  .h-Auto{
   height: inherit !important;
+ }
+ .testimonialWrapper {
+  scale: 0.98;
  }
 }
 

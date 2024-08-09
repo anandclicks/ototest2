@@ -11,22 +11,22 @@ function Section3rd() {
         <div className=" col-12 col-lg-6 herordleft  h-100  flex flex-wrap">
         
          <div className="col-12 col-lg-6 section3rdleftimg p-2 rounded-lg">
-            <img className='object-cover h-full w-full rounded-xl' src="/herosectionimg/one.jpg" alt="" />
+            <img className='object-cover h-full w-full rounded-xl' src="https://otostays.netlify.app/herosectionimg/one.jpg" alt="" />
           </div>
           <div className="col-12 col-lg-6 h-full d-none d-lg-flex flex-col">
             <div className="col-12   p-2">
-              <img className='rounded-xl ' src="/herosectionimg/two.jpg" alt="" />
+              <img className='rounded-xl ' src="https://otostays.netlify.app/herosectionimg/two.jpg" alt="" />
             </div>
             <div className="col-12 p-2">
-              <img className='rounded-xl ' src="/herosectionimg/three.jpg" alt="" />
+              <img className='rounded-xl ' src="https://otostays.netlify.app/herosectionimg/three.jpg" alt="" />
             </div>
           </div>
         
         </div>
         <div className="col-12 col-lg-6  herorfright flex justify-end ">
-          <div className="">
-            <h1><span className='hiligtedText ps-0'>Start living</span> your best <br /> life from day one</h1>
-            <img className='w-80 mt-5' src="/section3rd_rightbg.png" alt="" />
+          <div className="flex flex-wrap justify-center">
+            <h1 className='text-center'><span className='hiligtedText ps-0'>Start living</span> your best <br /> life from day one</h1>
+            <img className='w-75 mt-5' src="/section3rd_rightbg.png" alt="" />
           </div>
         </div>
       </div>
