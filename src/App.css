@@ -1323,14 +1323,15 @@ z-index: 9;
 .semiwrapper{
   transition: 0.4s;
   height: 250px;
-  align-items: center;
 
 }
 
 .feedback{
   box-shadow: 0px 0px 10px #0000008e;
 }
-
+.aboutus2ndsec img {
+  width: 80%;
+}
 
 
 

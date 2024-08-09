@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import Otoquility from './Otoquility'
 import CompanyInfo from './CompanyInfo '
+import Whychooseustwo from '../Whychooseustwo';
+import Contactus from '../Contactus';
 
 function Aboutus() {
   useEffect(() => {
@@ -8,9 +10,11 @@ function Aboutus() {
   }, []);
 
   return (
-    <div>
+    <div >
      <Otoquility/>
      <CompanyInfo/>
+     <Whychooseustwo/>
+     <Contactus/>
     </div>
   )
 }

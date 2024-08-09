@@ -27,13 +27,17 @@ function Whychooseustwo() {
         <div class="col-lg-4 col-sm-6 whychooseuscard cursor-pointer">
           <div class="item"> <span class="spanfor3rdsecicon icon feature_box_col_three"><i class="fas fa-cog"></i></span>
             <h6>All-Inclusive Packages</h6>
-            <p>Enjoy the convenience of hassle-free living with our all-inclusive packages. From high-speed internet and utilities to regular housekeeping and maintenance, we take care of the details so you can focus on what matters most.</p>
+            <p >Enjoy the convenience of hassle-free living with our all-inclusive packages. From high-speed internet and utilities to regular housekeeping and maintenance, we take care of the details so you can focus on what matters most.
+
+            </p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 whychooseuscard cursor-pointer">
           <div class="item"> <span class="spanfor3rdsecicon icon feature_box_col_four"><i class="fas fa-clock"></i></span>
             <h6>Flexible Lease Terms</h6>
-            <p>Whether you're here for a short-term internship or a long-term career move, our flexible lease options are designed to fit your schedule. We offer various lease lengths to accommodate your evolving needs.</p>
+            <p>Whether you're here for a short-term internship or a long-term career move, our flexible lease options are designed to fit your schedule. We offer various lease lengths to accommodate your evolving needs. 
+            Community-Centric Spaces
+            </p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 whychooseuscard cursor-pointer">

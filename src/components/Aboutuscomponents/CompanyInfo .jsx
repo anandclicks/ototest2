@@ -13,8 +13,8 @@ function CompanyInfo () {
           Founded with a vision to create vibrant, flexible living spaces, Otostays has quickly become a leader in the co-living and accommodation sector. We are committed to delivering high-quality, well-designed spaces that enhance the lifestyles of our residents. Whether you're a young professional, a digital nomad, or simply seeking a change, our properties offer a unique blend of comfort, convenience, and community.
           </p>
         </div>
-        <div className="col-md-6 text-center">
-          <img src="https://media.istockphoto.com/id/1455958730/vector/data-monitoring-and-analysis-on-desktop-tiny-people-with-magnifying-glass-research-graph.jpg?s=612x612&w=0&k=20&c=aL-XEnEBILCzi-qX_7tUn84FH7Ei_YoJTxlcGCY0Vb8=" alt="Growth Illustration" className="img-fluid" />
+        <div className="col-md-6 text-center aboutus2ndsec">
+          <img src="/Aboutusimgs\full-sleep-isometric-composition.png" alt="Growth Illustration" className="img-fluid" />
         </div>
       </div>
     </div>
