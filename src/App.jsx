@@ -29,6 +29,7 @@ import Aboutus from './components/Aboutuscomponents/Aboutus';
 import Otoquility from './components/Aboutuscomponents/Otoquility';
 import Foorertwo from './components/Foorertwo';
 import Contact from './components/Contact';
+import Newpg from './components/towpg/Newpgimg/Newpg';
 
 function App() {
   useEffect(() => {
@@ -44,6 +45,7 @@ function App() {
             {/* this is index route */}
             <Route index element={<><Home /><Prasence /><Otoquility/><Section3rd /><Testimonials /><Whychooseustwo /></>} />
             <Route path='/aboutus' element={<><Navbar2 /><Aboutus/></>} />
+            <Route path='/newpg' element={<><Navbar2/><Newpg/></>}/>
             <Route path='/contactUs' element={<><Navbar2/><Contact/></>}/>
             {/* this route is for explore pg */}
             <Route path='/explorepgs' element={<><Allpg /></>} />

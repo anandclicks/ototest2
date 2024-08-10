@@ -28,7 +28,7 @@ function Contactus() {
                          <button type="submit" className="btn primeryBg border-none rounded-none px-3 py-3">Submit Now</button>
                      </form>
                  </div>
-                 <div className="col-md-6 flex  flex-col justify-center items-center">
+                 <div className="col-md-6 flex  flex-col justify-center items-end">
               <div className="box mb-2 mb-lg-5 mt-2 mt-lg-0">
               <div className='mb-2 mb-lg-5 mt-5 mt-lg-0'>
                    <h1 className='fs-3 mb-2 mb-lg-4'>Contact information</h1>

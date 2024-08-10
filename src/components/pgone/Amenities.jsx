@@ -26,10 +26,10 @@ const amenities = [
 const Amenities = () => {
   return (
     <div className="amenities container pt-3">
-      <h2 className='p24px fw-bold mb-2'>Amenities</h2>
+      <h2 className=' mb-2 fs-3 my-4 pb-3'>Amazing <span className='primeryColor'>Amenties</span></h2>
       <div className="row">
         {amenities.map((amenity, index) => (
-          <div className="col-12 col-lg-4 d-flex align-items-center amenity" key={index}>
+          <div style={{fontSize : `16px`}} className="col-12 col-lg-4 d-flex align-items-center amenity fw500" key={index}>
             <i className={`${amenity.icon} amenity-icon`}></i>
             <span>{amenity.text}</span>
           </div>
