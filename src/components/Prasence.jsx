@@ -9,6 +9,7 @@ function Prasence() {
     <div className='container-flued h-[47vh] h-Auto ourPresence postion-reletive z-20 bg-white'>
     
       <div className="row h-50 ourPresenceRow row2 justify-center justify-lg-start">
+          <Link to={'/newpg'} className="btn">Go to new design</Link  >
         <h1 className=' t24px'>Our Presence</h1>
         <Link to={'/pg-in-noida'} className=" images prasence-card p-3 my-lg-0 shadow-md">
         <img src="/noida.jpg" alt="" />

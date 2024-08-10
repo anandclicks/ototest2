@@ -3,6 +3,9 @@ import Amenities from '../../pgone/Amenities'
 import PGListings from '../../PGListings'
 
 function Newpg() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [imageNo, setimageNo] = useState(6)
   const [Formstate, setFormstate] = useState(false)
 
@@ -138,7 +141,24 @@ function Newpg() {
           </div>
           {/* right side  */}
           <div className="col-12 col-lg-5 pgdesignRight py-5 ">
-            <div className={`pgform ms-0 ms-lg-5 ${Formstate ? 'formOfPgReletive' : 'formOfPgFixed'}`}></div>
+            <div className={`pgform ms-0 ms-lg-5 flex items-center  ${Formstate ? 'formOfPgReletive' : 'formOfPgFixed'} p-3 px-5`}>
+      <form className='w-full' action="">
+            <h2 class="text-center p24px fwnormal fs-4">Get a call</h2>
+      <div class="form-group">
+        <input type="text" class="form-control py-3  my-4" placeholder="Name*" required />
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control py-3  my-4" placeholder="Mobile number*" required />
+      </div>
+      <div class="form-group">
+        <input class="form-control py-3  my-4" placeholder="Property location" type="text" name="" id=""/>
+      </div>
+
+
+      <button type="submit" class="btn primeryBg btn-block py-2 px-5 w-100">Submit</button>
+    <p class="mt-3 text-center">Need Assistance? Call at <a class="text-decoration-none text-dark" href="tel:+91 9599050903">+91 7415051778</a></p>
+      </form>
+            </div>
           </div>
         </div>
         <PGListings/>
