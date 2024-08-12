@@ -29,7 +29,7 @@ const Amenities = () => {
       <h2 className=' mb-2 fs-3 my-4 pb-3'>Amazing <span className='primeryColor'>Amenties</span></h2>
       <div className="row">
         {amenities.map((amenity, index) => (
-          <div style={{fontSize : `16px`}} className="col-12 col-lg-4 d-flex align-items-center amenity fw500" key={index}>
+          <div style={{fontSize : `13px`}} className="col-12 col-lg-4 d-flex align-items-center amenity fw500" key={index}>
             <i className={`${amenity.icon} amenity-icon`}></i>
             <span>{amenity.text}</span>
           </div>

@@ -1412,7 +1412,12 @@ z-index: 9;
 .pgform form input:focus {
   border:1px solid #000;
   box-shadow: none;
- 
+}
+.pgform form select{
+  border:1px solid #000;
+}
+.pgform form select:focus {
+  box-shadow: none;
 }
 .fixed {
   position: fixed;

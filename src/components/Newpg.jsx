@@ -91,12 +91,12 @@ function Newpg() {
             <h2 className='fs-2'>Room <span className='primeryColor'>Detels</span></h2>
             <p className='mt-2'>All room type have some variants that are larger in size or have extra Amenities.</p>
             <div className="priceBox w-full row gap-3 py-4 px-4">
-              <div className='bgLightDark col-3 flex flex-col items-center p-4  rounded-2xl cursor-pointer'>
+              <div className='bgLightDark col-4 flex flex-col items-center p-4  rounded-2xl cursor-pointer'>
               <h2 className='fs-5 py-1'>Private Room</h2>
               <p>starting from</p>
               <span className='fw-bold mt-1'>₹11,000/<span className='fw-light p13px'>Month</span></span>
               </div>
-              <div className='bgLightDark col-3 flex flex-col items-center p-4  rounded-2xl cursor-pointer'>
+              <div className='bgLightDark col-4 flex flex-col items-center p-4  rounded-2xl cursor-pointer'>
               <h2 className='fs-5 py-1'>Double sharing</h2>
               <p>starting from</p>
               <span className='fw-bold mt-1'>₹55,00/<span className='fw-light p13px'>Month</span></span>
@@ -121,7 +121,7 @@ function Newpg() {
             <h2 className='fs-2 col-12'>Nearby <span className='primeryColor'>Location</span></h2>
               <div className='bgLightDark col-3 flex flex-col items-center gap-4 p-4 rounded-xl'>
               <p>Om deiry</p>
-              <h2 className='fwnormal'>20Mtr km away</h2>
+              <h2 className='fwnormal'>20Mtr away</h2>
               </div>
               <div className='bgLightDark col-3 flex flex-col items-center gap-4 p-4 rounded-xl'>
               <p>DLF mall of India</p>
@@ -140,21 +140,31 @@ function Newpg() {
             <div className={`pgform ms-0 ms-lg-4 flex  formOfPgReletive col-4 ${isFixed ? 'fixed' : 'scroll'} p-3 px-5`}>
       <form className='w-full' action="">
             <h2 class="text-center p24px fwnormal fs-4">Get a call</h2>
-      <div class="form-group">
-        <input type="text" class="form-control py-3  my-4" placeholder="Name*" required />
+      <div class="form-group my-3">
+        <p>Your full name</p>
+        <input type="text" class="form-control py-3  "  required />
       </div>
-      <div class="form-group">
-        <input type="text" class="form-control py-3  my-4" placeholder="Mobile number*" required />
+      <div class="form-group my-3">
+      <p>Mobile number</p>
+        <input type="text" class="form-control py-3  " required />
       </div>
-      <div class="form-group">
-        <input class="form-control py-3  my-4" placeholder="Property location" type="text" name="" id=""/>
+      <div class="form-group my-3">
+        <p>Email Address</p>
+        <input class="form-control py-3 " type="text" name="" id=""/>
+      </div>
+      <div class="form-group my-3">
+        <p>Room sharing</p>
+        <select class="form-control py-3 " type="text" name="" id="">
+          <option selected value=""></option>
+          <option value="">Single sharing</option>
+          <option value="">Double sharing</option>
+        </select>
       </div>
 
-
-      <button type="submit" class="btn primeryBg btn-block py-2 px-5 w-100">Submit</button>
-    <p class="mt-3 text-center">Need Assistance? Call at <a class="text-decoration-none text-dark" href="tel:+91 9599050903">+91 7415051778</a></p>
+      <button type="submit" class="btn primeryBg btn-block py-3 px-5 w-100">Submit</button>
+   
       </form>
-      <div className="row position-absolute bottom-0 d-flex ms-4 gap-2 flex-nowrap mb-5 justify-between btnsoform px-4">
+      <div className="row position-absolute bottom-0 d-flex ms-4 gap-2 flex-nowrap pb-5 justify-between btnsoform px-4">
         <div className="btn btnPglocaion py-3 w-50 w-50">Property Toor <i class="fa-solid fa-video ms-2"></i></div>
         <div className="btn btnPglocaion py-3 w-50 w-50">Call now <i class="fa-solid fa-phone ms-2"></i></div>
       </div>
