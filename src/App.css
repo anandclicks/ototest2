@@ -1397,7 +1397,9 @@ z-index: 9;
   height: 100%;
   flex-direction: column-reverse !important;
 }
-
+.pricingCard:hover{
+  background-color:#14658a46 !important;
+}
 .formOfPgReletive {
 
   width:25%;

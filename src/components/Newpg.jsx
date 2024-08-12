@@ -91,12 +91,12 @@ function Newpg() {
             <h2 className='fs-2'>Room <span className='primeryColor'>Detels</span></h2>
             <p className='mt-2'>All room type have some variants that are larger in size or have extra Amenities.</p>
             <div className="priceBox w-full row gap-3 py-4 px-4">
-              <div className='bgLightDark col-4 flex flex-col items-center p-4  rounded-2xl cursor-pointer'>
+              <div className='bgLightDark col-4 flex flex-col items-center pricingCard p-4  rounded-2xl cursor-pointer'>
               <h2 className='fs-5 py-1'>Private Room</h2>
               <p>starting from</p>
               <span className='fw-bold mt-1'>₹11,000/<span className='fw-light p13px'>Month</span></span>
               </div>
-              <div className='bgLightDark col-4 flex flex-col items-center p-4  rounded-2xl cursor-pointer'>
+              <div className='bgLightDark col-4 flex flex-col items-center pricingCard p-4  rounded-2xl cursor-pointer'>
               <h2 className='fs-5 py-1'>Double sharing</h2>
               <p>starting from</p>
               <span className='fw-bold mt-1'>₹55,00/<span className='fw-light p13px'>Month</span></span>
