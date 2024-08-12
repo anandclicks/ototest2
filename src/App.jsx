@@ -29,7 +29,7 @@ import Aboutus from './components/Aboutuscomponents/Aboutus';
 import Otoquility from './components/Aboutuscomponents/Otoquility';
 import Foorertwo from './components/Foorertwo';
 import Contact from './components/Contact';
-import Newpg from './components/towpg/Newpgimg/Newpg';
+import Newpg from './components/Newpg';
 
 function App() {
   useEffect(() => {

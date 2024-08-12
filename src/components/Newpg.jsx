@@ -1,33 +1,33 @@
 import React, { useEffect, useState } from 'react'
-import Amenities from '../../pgone/Amenities'
-import PGListings from '../../PGListings'
+import Amenities from '../../src/components/pgone/Amenities'
+import PGListings from '../../src/components/PGListings'
 
 function Newpg() {
+  const [isFixed, setIsFixed] = useState(true);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const [imageNo, setimageNo] = useState(6)
-  const [Formstate, setFormstate] = useState(false)
+  const [imageNo, setimageNo] = useState(1)
 
   useEffect(() => {
     const handleScroll = () => {
-      if (document.documentElement.scrollTop >= 1861) {
-        setFormstate(true);
+      const scrollPosition = window.scrollY;
+  
+      if (scrollPosition >= 1830) {
+        setIsFixed(false);
       } else {
-        setFormstate(false);
+        setIsFixed(true);
       }
     };
 
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   const NextImgHnadle = ()=> {
-    if(imageNo == 9) {
+    if(imageNo == 10) {
       setimageNo(1)
     }
     else {
@@ -53,16 +53,16 @@ function Newpg() {
             {/* top btn and pg info  */}
           <div className="flex w-full justify-between items-center py-5">
             <div className='flex gap-3 flex-col'>
-              <h1>Oto Bloom <i class="ri-heart-line ms-3 fw-light primeryColor"></i></h1>
-              <p className='text-black-50 '>Lorem ipsum dolor sit amet  </p>
+              <h1> OTO capital sector 44 <i class="ri-heart-line ms-3 fw-light primeryColor"></i></h1>
+              <p className='text-black-50 '>Nearby - Esi hospital Sector 22 Noida  </p>
             </div>
             <div className='btn btn-outline-info btnPglocaion'>
-            <i class="ri-map-pin-line me-1 fs-5"></i> View in map
+              <a target='_blanck' className='text-decoration-none' href="https://maps.app.goo.gl/eqS7HCAztCrnxMgo8"><i class="ri-map-pin-line me-1 fs-5"></i> View in map</a>
             </div>
           </div>
           {/* images and slider  */}
           <div className="imageContainer w-full overflow-hidden">
-            <img className='h-full w-full object-cover' src={`src/components/towpg/Newpgimg/${imageNo}.jpg`} alt="" />
+            <img className='h-full w-full object-cover' src={`/Newpgimg/${imageNo}.jpg`} alt="" />
             <div className='w-full flex justify-between imageCtril'>
               <i onClick={PrevImgHandle} class="ri-arrow-left-s-line fs-1"></i>
               <i onClick={NextImgHnadle} class="ri-arrow-right-s-line fs-1"></i></div>
@@ -90,22 +90,18 @@ function Newpg() {
           <div className="row py-3">
             <h2 className='fs-2'>Room <span className='primeryColor'>Detels</span></h2>
             <p className='mt-2'>All room type have some variants that are larger in size or have extra Amenities.</p>
-            <div className="priceBox w-full row justify-between py-4 px-4">
-              <div className='bgLightDark col-3 flex flex-col items-center p-4  rounded-2xl'>
+            <div className="priceBox w-full row gap-3 py-4 px-4">
+              <div className='bgLightDark col-3 flex flex-col items-center p-4  rounded-2xl cursor-pointer'>
               <h2 className='fs-5 py-1'>Private Room</h2>
               <p>starting from</p>
-              <span className='fw-bold mt-1'>₹21336/<span className='fw-light p13px'>Month</span></span>
+              <span className='fw-bold mt-1'>₹11,000/<span className='fw-light p13px'>Month</span></span>
               </div>
-              <div className='bgLightDark col-3 flex flex-col items-center p-4  rounded-2xl'>
-              <h2 className='fs-5 py-1'>Private Room</h2>
+              <div className='bgLightDark col-3 flex flex-col items-center p-4  rounded-2xl cursor-pointer'>
+              <h2 className='fs-5 py-1'>Double sharing</h2>
               <p>starting from</p>
-              <span className='fw-bold mt-1'>₹21336/<span className='fw-light p13px'>Month</span></span>
+              <span className='fw-bold mt-1'>₹55,00/<span className='fw-light p13px'>Month</span></span>
               </div>
-              <div className='bgLightDark col-3 flex flex-col items-center p-4  rounded-2xl'>
-              <h2 className='fs-5 py-1'>Private Room</h2>
-              <p>starting from</p>
-              <span className='fw-bold mt-1'>₹21336/<span className='fw-light p13px'>Month</span></span>
-              </div>
+           
             </div>
           </div>
           {/* wallet  */}
@@ -118,7 +114,7 @@ function Newpg() {
           </div>
           {/* map  */}
           <div className="row h-[40vh]">
-          <iframe className='h-full w-full' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3504.407924176767!2d77.33931701196641!3d28.557510945521663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMzJzIxLjAiTiA3N8KwMjAnMjEuOCJF!5e0!3m2!1sen!2sin!4v1722497304445!5m2!1sen!2sin"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3503.217737472487!2d77.34335387549936!3d28.59324407568618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM1JzM1LjciTiA3N8KwMjAnNDUuMyJF!5e0!3m2!1sen!2sin!4v1723439152269!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           {/* near by facelities */}
           <div className="priceBox nearbyfacelites w-full row items-center py-4 px-4 gap-3 ps-0">
@@ -128,20 +124,20 @@ function Newpg() {
               <h2 className='fwnormal'>20Mtr km away</h2>
               </div>
               <div className='bgLightDark col-3 flex flex-col items-center gap-4 p-4 rounded-xl'>
-              <p>Metro station</p>
-              <h2 className='fwnormal'>5 min away </h2>
+              <p>DLF mall of India</p>
+              <h2 className='fwnormal'>15 Min away </h2>
               
               </div>
               <div className='bgLightDark col-3 flex flex-col items-center gap-4 p-4 rounded-xl'>
-              <p>DLF Mall of India</p>
+              <p>Parks and gym</p>
               <h2 className='fwnormal'>15 min away</h2>
               </div>
               
             </div>
           </div>
           {/* right side  */}
-          <div className="col-12 col-lg-5 pgdesignRight py-5 ">
-            <div className={`pgform ms-0 ms-lg-5 flex items-center  ${Formstate ? 'formOfPgReletive' : 'formOfPgFixed'} p-3 px-5`}>
+          <div className="col-12 col-lg-5 pgdesignRight py-5  ">
+            <div className={`pgform ms-0 ms-lg-4 flex  formOfPgReletive col-4 ${isFixed ? 'fixed' : 'scroll'} p-3 px-5`}>
       <form className='w-full' action="">
             <h2 class="text-center p24px fwnormal fs-4">Get a call</h2>
       <div class="form-group">
@@ -158,6 +154,10 @@ function Newpg() {
       <button type="submit" class="btn primeryBg btn-block py-2 px-5 w-100">Submit</button>
     <p class="mt-3 text-center">Need Assistance? Call at <a class="text-decoration-none text-dark" href="tel:+91 9599050903">+91 7415051778</a></p>
       </form>
+      <div className="row position-absolute bottom-0 d-flex ms-4 gap-2 flex-nowrap mb-5 justify-between btnsoform px-4">
+        <div className="btn btnPglocaion py-3 w-50 w-50">Property Toor <i class="fa-solid fa-video ms-2"></i></div>
+        <div className="btn btnPglocaion py-3 w-50 w-50">Call now <i class="fa-solid fa-phone ms-2"></i></div>
+      </div>
             </div>
           </div>
         </div>
