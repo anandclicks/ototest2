@@ -155,7 +155,7 @@ function Newpg() {
         </select>
       </div>
 
-      <button type="submit" class="btn primeryBg btn-block py-3 px-5 w-100">Submit</button>
+      <button type="submit" class="btn primeryBg btn-block py-3 px-5 mt-3 w-100">Submit</button>
    
       </form>
       <div className="row position-absolute bottom-0 d-flex ms-4 gap-2 flex-nowrap pb-5 justify-between btnsoform px-4">
