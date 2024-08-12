@@ -141,18 +141,15 @@ function Newpg() {
       <form className='w-full' action="">
             <h2 class="text-center p24px fwnormal fs-4">Get a call</h2>
       <div class="form-group my-3">
-        <p>Your full name</p>
-        <input type="text" class="form-control py-3  "  required />
+        <input type="text" placeholder='Full name' class="form-control py-3  "  required />
       </div>
       <div class="form-group my-3">
-      <p>Mobile number</p>
-        <input type="text" class="form-control py-3  " required />
+        <input type="text" placeholder='Mobile number*' class="form-control py-3  " required />
       </div>
 
       <div class="form-group my-3">
-        <p>Room sharing</p>
         <select class="form-control py-3 " type="text" name="" id="">
-          <option selected value=""></option>
+          <option className='text-black-50' selected value="">Room sharing</option>
           <option value="">Single sharing</option>
           <option value="">Double sharing</option>
         </select>
