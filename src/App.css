@@ -1507,9 +1507,6 @@ z-index: 9;
 
 
 
-
-
-
 @media (max-width: 1768px) {
   .row2 {
     padding: 0px 40px !important;
@@ -1652,6 +1649,28 @@ z-index: 9;
  }
  .testimonialWrapper {
   scale: 0.98;
+ }
+ .pgdesigntwo {
+  padding: 0px !important;
+ }
+ .pgdesigntwoRow{
+  height: 200px !important;
+ }
+ .formOfPgReletive {
+  position: relative !important;
+  width: 100% !important;
+  top: 0px !important;
+ }
+ .imageContainer{
+  height: 400px !important;
+ }
+ h1 {
+  font-size: 24px !important;
+ }
+
+ .pgdesignRight{
+  height: auto !important;
+
  }
 }
 

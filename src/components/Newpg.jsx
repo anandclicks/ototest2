@@ -46,20 +46,26 @@ function Newpg() {
   return (
     <> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
-    <div className='container-flued row2  pgdesigntwo'>
-        <div className="row  h-full pgdesigntwoRow">
+    <div className='container-flued row2  pgdesigntwo  h-Auto'>
+        <div className="row ">
           {/* left side  */}
           <div className="col-12 col-lg-7 pgdesignLeft ">
             {/* top btn and pg info  */}
-          <div className="flex w-full justify-between items-center py-5">
+          <div className="flex w-full justify-between items-center py-2 py-lg-5 h-Auto">
             <div className='flex gap-3 flex-col'>
               <h1> OTO capital sector 44 <i class="ri-heart-line ms-3 fw-light primeryColor"></i></h1>
               <p className='text-black-50 '>Nearby - Esi hospital Sector 22 Noida  </p>
             </div>
-            <div className='btn btn-outline-info btnPglocaion'>
+            <div className='btn btn-outline-info btnPglocaion d-lg-flex d-none'>
               <a target='_blanck' className='text-decoration-none' href="https://maps.app.goo.gl/eqS7HCAztCrnxMgo8"><i class="ri-map-pin-line me-1 fs-5"></i> View in map</a>
             </div>
           </div>
+          {/* location btn  */}
+        <div className='h-[10vh] d-flex  d-lg-none'>
+        <div className='btn btn-outline-info btnPglocaion d-inline'>
+              <a target='_blanck' className='text-decoration-none' href="https://maps.app.goo.gl/eqS7HCAztCrnxMgo8"><i class="ri-map-pin-line me-1 fs-5"></i> View in map</a>
+            </div>
+        </div>
           {/* images and slider  */}
           <div className="imageContainer w-full overflow-hidden">
             <img className='h-full w-full object-cover' src={`/Newpgimg/${imageNo}.jpg`} alt="" />
@@ -68,10 +74,11 @@ function Newpg() {
               <i onClick={NextImgHnadle} class="ri-arrow-right-s-line fs-1"></i></div>
           </div>
           {/* about property  */}
-          <div className="row w-full py-5">
+          <div className=" w-full  pt-4 pb-0 py-lg-5 h-auto">
           <p className='primeryColor pb-5'>Home <i class="ri-arrow-right-s-line"></i> Noida <i class="ri-arrow-right-s-line"></i> All PG <i class="ri-arrow-right-s-line"></i> <span className='text-black'>Oto capital</span></p>
-          {/* about property  */}
-          <div className="box">
+          </div>
+           {/* about property  */}
+           <div className="box">
             <h2 className='fs-2'>About the <span className='primeryColor'>Property</span></h2>
             <p className='flex flex-col'>
               <span className='mb-3 mt-2'>Discover Your Ideal PG near Bellandur with OTO Nirvana!</span> <br />
@@ -85,18 +92,17 @@ function Newpg() {
               </span>
 </p>
           </div>
-          </div>
           {/* rooms dtls  */}
-          <div className="row py-3">
+          <div className="row py-3 h-auto">
             <h2 className='fs-2'>Room <span className='primeryColor'>Detels</span></h2>
             <p className='mt-2'>All room type have some variants that are larger in size or have extra Amenities.</p>
             <div className="priceBox w-full row gap-3 py-4 px-4">
-              <div className='bgLightDark col-4 flex flex-col items-center pricingCard p-4  rounded-2xl cursor-pointer'>
+              <div className='bgLightDark col-12 col-lg-4  flex flex-col items-center pricingCard p-2 p-lg-4  rounded-2xl cursor-pointer'>
               <h2 className='fs-5 py-1'>Private Room</h2>
               <p>starting from</p>
               <span className='fw-bold mt-1'>₹11,000/<span className='fw-light p13px'>Month</span></span>
               </div>
-              <div className='bgLightDark col-4 flex flex-col items-center pricingCard p-4  rounded-2xl cursor-pointer'>
+              <div className='bgLightDark col-12 col-lg-4  flex flex-col items-center pricingCard p-2 p-lg-4  rounded-2xl cursor-pointer'>
               <h2 className='fs-5 py-1'>Double sharing</h2>
               <p>starting from</p>
               <span className='fw-bold mt-1'>₹55,00/<span className='fw-light p13px'>Month</span></span>
@@ -117,18 +123,18 @@ function Newpg() {
           <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3503.217737472487!2d77.34335387549936!3d28.59324407568618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM1JzM1LjciTiA3N8KwMjAnNDUuMyJF!5e0!3m2!1sen!2sin!4v1723439152269!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           {/* near by facelities */}
-          <div className="priceBox nearbyfacelites w-full row items-center py-4 px-4 gap-3 ps-0">
+          <div className="priceBox nearbyfacelites w-full row justify-content-start justify-content-lg-start py-4 gap-3">
             <h2 className='fs-2 col-12'>Nearby <span className='primeryColor'>Location</span></h2>
-              <div className='bgLightDark col-3 flex flex-col items-center gap-4 p-4 rounded-xl'>
+              <div className='bgLightDark col-lg-3 col-5  flex flex-col pricingCard p-2 p-lg-4 rounded-xl'>
               <p>Om deiry</p>
               <h2 className='fwnormal'>20Mtr away</h2>
               </div>
-              <div className='bgLightDark col-3 flex flex-col items-center gap-4 p-4 rounded-xl'>
+              <div className='bgLightDark col-lg-3 col-5  flex flex-col pricingCard p-2 p-lg-4 rounded-xl'>
               <p>DLF mall of India</p>
               <h2 className='fwnormal'>15 Min away </h2>
               
               </div>
-              <div className='bgLightDark col-3 flex flex-col items-center gap-4 p-4 rounded-xl'>
+              <div className='bgLightDark col-lg-3 col-5  flex flex-col pricingCard p-2 p-lg-4 rounded-xl'>
               <p>Parks and gym</p>
               <h2 className='fwnormal'>15 min away</h2>
               </div>
@@ -165,7 +171,7 @@ function Newpg() {
             </div>
           </div>
         </div>
-        <PGListings/>
+        {/* <PGListings/> */}
     </div>
     </>
   )

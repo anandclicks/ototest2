@@ -3,9 +3,7 @@ import { UserContext } from '../../ContextApi/Usercontext'
 import { Link } from "react-router-dom";
 import Listproperty from './Listproperty';
 function Navbar() {
-  useEffect(()=> {
-    setNavstate(prevState => !prevState)
-  },[])
+  
   const toggleNavstate = () => {
     setNavstate(prevState => !prevState);
   };
