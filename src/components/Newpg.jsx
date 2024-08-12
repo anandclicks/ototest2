@@ -148,10 +148,7 @@ function Newpg() {
       <p>Mobile number</p>
         <input type="text" class="form-control py-3  " required />
       </div>
-      <div class="form-group my-3">
-        <p>Email Address</p>
-        <input class="form-control py-3 " type="text" name="" id=""/>
-      </div>
+
       <div class="form-group my-3">
         <p>Room sharing</p>
         <select class="form-control py-3 " type="text" name="" id="">
