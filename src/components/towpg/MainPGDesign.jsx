@@ -49,11 +49,11 @@ function MainPGDesign({
     try {
       const response = await axios.post('https://backend-for-oto.onrender.com/getAcall', formData);
       if (response.status === 200) {
-        alert('Form submitted successfully');
+        alert('We will contact you soon!');
         setFormData({ name: '', email: '', mobileNumber: '', roomType: '' }); // Reset form
       }
     } catch (error) {
-      console.error('Error submitting the form', error);
+      // console.error('Error submitting the form', error);
       alert('Failed to submit the form. Please try again.');
     }
   };

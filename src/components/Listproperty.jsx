@@ -27,12 +27,12 @@ function Listproperty() {
     try {
       const response = await axios.post('https://backend-for-oto.onrender.com/getAcall', formData);
       if (response.status === 200) {
-        alert('Property added successfully!');
+        alert('Property adding request sent successfully!');
         setFormstate(false);  // Close the form on successful submission
         setFormData({ name: '', mobileNumber: '', email: '', roomType: '' });  // Reset form
       }
     } catch (error) {
-      console.error('Error submitting form:', error);
+      // console.error('Error submitting form:', error);
       alert('Failed to add property. Please try again.');
     }
   };
@@ -60,7 +60,7 @@ function Listproperty() {
           {/* Phone Number input */}
           <div className="form-group">
             <input
-              type="text"
+              type="number"
               className="form-control py-3"
               placeholder="Phone Number*"
               name="mobileNumber"

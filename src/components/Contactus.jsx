@@ -21,13 +21,12 @@ function Contactus() {
     // API call here
     try {
         const response = await axios.post('https://backend-for-oto.onrender.com/getAcall', formData);
-        console.log('API Response:', response.data);
-        setFormData({
-          name: '',
-          mobileNumber: '',
-          email: '',
-          roomType: '',
-        })
+        // console.log('API Response:', response.data);
+        if (response.status === 200) {
+          alert('We will contact you soon!');
+          setFormstate(false);  // Close the form on successful submission
+          setFormData({ name: '', mobileNumber: '', email: '', roomType: '' });  // Reset form
+        }
         // Handle success (e.g., close the form, show a success message, etc.)
       }catch (error) {
       console.error('Error:', error);
@@ -69,7 +68,7 @@ function Contactus() {
                   </div>
                   <div className="mb-3 w-50">
                     <input 
-                      type="text" 
+                      type="number" 
                       className="form-control contactInput" 
                       placeholder="Phone Number" 
                       name="mobileNumber" 
