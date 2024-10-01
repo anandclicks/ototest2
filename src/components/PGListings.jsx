@@ -38,7 +38,7 @@ function PGListings() {
 
   return (
     <div className="container mt-4 pgListing pt-5">
-      <h2 className="fs-2 py-4">
+      <h2 className="fs-2 py-4 mt-5 mt-lg-0">
         Explore Other <span className="primeryColor">PG</span>
       </h2>
       <div className="row ">

@@ -11,8 +11,8 @@ function Otoquility() {
 </div>
    <div className="container h-full flex items-center ">
    <div className="row h-full items-center mt-2 mt-lg-5 ">
-    <div className="col-md-5 mb-4 h-full flex  items-center pe-5">
-        <img src="https://wallpapers.com/images/hd/hotel-background-6s9uozn0lpef15n6.jpg" alt="Software Development" className="h-full w-full object-contain me-0 me-lg-5 pe-0 pe-lg-5" />
+    <div className="col-md-5 mb-4 h-full flex  items-center ">
+        <img src="\Allcitiesindividualpgs\otoroyalwinsec104\6.jpg" alt="Software Development" className="h-full w-full object-contain me-0 me-lg-5 pe-0 pe-lg-5" />
       </div>  
    <div className='col-lg-7'>
    <div className=" mb-4">

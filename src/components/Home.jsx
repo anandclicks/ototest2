@@ -51,7 +51,7 @@ function Home() {
                   onChange={handleInputChange} // Update the state when typing
                 />
                 <div className="btn primeryBg  border-none rounded-none h-full m-0 homeBtn">
-                  NEAR ME <i className="fa-solid fa-magnifying-glass ms-2"></i>
+                  Search <i className="fa-solid fa-magnifying-glass ms-2"></i>
                 </div>
               </div>
               {searchTerm && (
