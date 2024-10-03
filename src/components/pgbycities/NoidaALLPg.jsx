@@ -1,11 +1,7 @@
-// Inside NoidaALLPg.jsx
 import { UserContext } from "@/ContextApi/Usercontext";
-
 import React, { useEffect, useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import Amentiesmini from "../pgone/Amentiesmini";
-
-// ...other imports
 
 function NoidaALLPg() {
   const { pgAllData } = useContext(UserContext);
@@ -13,10 +9,9 @@ function NoidaALLPg() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    // Simulate data fetching delay
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 500); // Adjust as needed
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -25,15 +20,14 @@ function NoidaALLPg() {
     return <div className="loading">Loading PGs...</div>;
   }
 
+  const noidaPGs = pgAllData.filter((pg) => pg.city.toLowerCase() === "noida");
+
   return (
     <div className="row2 row h35 no-gutters">
-      {pgAllData
-        .filter((pg) => pg.city.toLowerCase() === "noida")
-        .map((pg) => {
+      {noidaPGs.length > 0 ? (
+        noidaPGs.map((pg) => {
           const discountPercentage = (
-            ((parseFloat(pg.oldPrice) - parseFloat(pg.doubleSharingPrice)) /
-              parseFloat(pg.oldPrice)) *
-            100
+            ((parseFloat(pg.oldPrice) - parseFloat(pg.doubleSharingPrice)) / parseFloat(pg.oldPrice)) * 100
           ).toFixed(0);
 
           return (
@@ -67,23 +61,20 @@ function NoidaALLPg() {
                   </div>
                 </div>
                 <div className="button-container position-absolute end-0 bottom-0 btnBoxcard m-1 m-lg-3">
-                  <button
-                    className="bg-transparent text-black viewDtsl"
-                    aria-label={`View details of ${pg.pgTitle}`}
-                  >
+                  <button className="bg-transparent text-black viewDtsl" aria-label={`View details of ${pg.pgTitle}`}>
                     View Details
                   </button>
-                  <button
-                    className="btn bg-black bookPg"
-                    aria-label={`Book ${pg.pgTitle} now`}
-                  >
+                  <button className="btn bg-black bookPg" aria-label={`Book ${pg.pgTitle} now`}>
                     Book Now
                   </button>
                 </div>
               </div>
             </Link>
           );
-        })}
+        })
+      ) : (
+        <p>No PGs available in Noida.</p>
+      )}
     </div>
   );
 }

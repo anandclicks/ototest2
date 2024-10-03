@@ -35,9 +35,7 @@ function Footer() {
                           <ul className="list-unstyled d-flex flex-column mt-2">
                               <li className=""><i className="ri-arrow-right-line"></i> Home</li>
                               <li className=""><i className="ri-arrow-right-line"></i> About Us</li>
-                              <li className=""><i className="ri-arrow-right-line"></i> Blog</li>
                               <li className=""><i className="ri-arrow-right-line"></i>All PG'S for you</li>
-                              <li className=""><i className="ri-arrow-right-line"></i> User Policy</li>
                               <li className=""><i className="ri-arrow-right-line"></i>PG in Delhi</li>
                               <li className=""><i className="ri-arrow-right-line"></i>PG in Noida</li>
                           </ul>

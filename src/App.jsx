@@ -28,6 +28,7 @@ import Newpg from "./components/Newpg";
 import Otobloomsec45 from "./components/towpg/MainPGDesign";
 import { UserContext } from "./ContextApi/Usercontext";
 import MainPGDesign from "./components/towpg/MainPGDesign";
+import Noida from "./components/citylist/Noida";
 
 
 function App() {
@@ -62,7 +63,7 @@ function App() {
 
         {/* City-Specific Routes */}
         <Route path="/pg-in-delhi" element={<><Delhi /></>} />
-        <Route path="/pg-in-noida" element={<><Navbar2 /><NoidaALLPg /></>} />
+        <Route path="/pg-in-noida" element={<><Noida /></>} />
         <Route path="/pg-in-grater-noida" element={<><GreaterNoida /></>} />
         <Route path="/pg-in-gurugram" element={<><Gurugram /></>} />
         <Route path="/pg-in-gaziyabad" element={<><Gaziyabad /></>} />

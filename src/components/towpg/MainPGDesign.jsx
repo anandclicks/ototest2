@@ -10,6 +10,7 @@ import GreaterNoida from '../citylist/GreaterNoida';
 import GaziyabadALlpg from '../pgbycities/GaziyabadAllPg';
 import Ratting from '../pgone/Ratting';
 import PGListings from '../PGListings';
+import { UserContext } from '../../ContextApi/Usercontext';
 
 function MainPGDesign({
   pgTitle,
@@ -27,6 +28,8 @@ function MainPGDesign({
   distanceFromPgTwo,
   distanceFromPgThree
 }) {
+  const {Formstate, setFormstate} = useContext(UserContext)
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -60,6 +63,11 @@ function MainPGDesign({
 
   return (
     <>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerPolicy="no-referrer" />
+    <div className="whastappBtnForMobile">
+      <Link to={'https://wa.me/7415051778'} target='_blanck' className="whatsapp"><i class="ri-whatsapp-fill"></i>Schedule visit</Link>
+      <Link onClick={()=> setFormstate(true)} className='Call'>Get a call</Link>
+    </div>
       <Navbar2 />
       <div className='container-flued pgMain p-0'>
         <div className="row p-0">

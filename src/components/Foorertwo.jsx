@@ -44,11 +44,10 @@ function Foorertwo() {
             <h6 className="custom-footer-heading  fwnormal t24px">Connect Us</h6>
             <div class="line-with-dots"><div class="line"></div></div>
            <ul className='flex flex-col gap-2 t15px'>
-           <Link>Instagram</Link>
-            <Link>Facebook</Link>
-            <Link>Linkdin</Link>
-            <Link>Twitter</Link>
-            <Link>Youtube</Link>
+           <Link to={'https://www.instagram.com/otostays6/'} target='_blanck'>Instagram</Link>
+            <Link to={'https://www.facebook.com/OTOstays'} target='_blanck'>Facebook</Link>
+            <Link to={'https://www.linkedin.com/company/otostays/'} target='_blanck'>Linkdin</Link>
+            <Link to={'https://x.com/i/flow/login?redirect_after_login=%2FOtoStays'} target='_blanck'>Twitter</Link>
            </ul>
             
           </div>

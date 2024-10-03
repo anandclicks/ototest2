@@ -1560,10 +1560,28 @@ padding: 15px;
 .PgNameForCards {
   font-size: 21px !important;
 }
+.whastappBtnForMobile{
+  display: none;
+}
 
-
-
-
+/* filter css  */
+.filterSide input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.filterType{
+  font-size: 18px;
+}
+.inputWrapper p {
+  font-size: 15px !important;
+}
+.inputWrapper {
+  background-color: #f3f3f38e;
+  padding: 5px;
+  margin: 7px;
+  margin-left: 0px;
+}
 
 
 
@@ -1792,6 +1810,31 @@ padding: 15px;
  }
  .locationOfPg {
   font-size: 12px !important;
+ }
+ .whastappBtnForMobile{
+  display: flex !important;
+  position: fixed ;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+ }
+ .whastappBtnForMobile  a {
+  height: 45px;
+  width: 50%;
+  background-color: #029e08;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ }
+ .whastappBtnForMobile  a i {
+  font-size: 22px;
+ }
+ .whastappBtnForMobile  a:nth-child(2) {
+  background-color: #eeeeee;
+  color: #000;
  }
 }
 

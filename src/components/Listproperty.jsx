@@ -39,8 +39,8 @@ function Listproperty() {
 
   return (
     <div className='postion-reletive '>
-      <div className={`col-12 h-[100vh] position-fixed addPropertyForm z-50 shadow-lg d-flex justify-content-center align-items-center ${Formstate ? "d-flex" : "d-none"}`}>
-        <form className="col-lg-4 col-12 bg-white rounded-xl p-4 shadow-xl" onSubmit={handleSubmit}>
+      <div className={`col-12 h-[100vh] position-fixed addPropertyForm z-50 shadow-lg d-flex justify-content-center align-items-center pe-3 ps-1 ${Formstate ? "d-flex" : "d-none"}`}>
+        <form className="col-lg-4 col-12 bg-white rounded-xl p-2 pe-3 p-lg-4 shadow-xl" onSubmit={handleSubmit}>
           <i onClick={() => setFormstate(prev => !prev)} className="fa-regular fa-xmark position-absolute end-0 top-0 m-3 m-lg-5 cursur p24px cursor-pointer fw-bold closeAddPropertyForm text-black"></i>
           <h2 className="text-center p24px fwnormal">Add property</h2>
 
@@ -100,7 +100,7 @@ function Listproperty() {
           </div>
 
           {/* Submit button */}
-          <button type="submit" className="btn primeryBg btn-block py-2 px-5 w-100">Submit</button>
+          <button type="submit" className="btn primeryBg btn-block mt-2 px-5 w-100">Submit</button>
 
           <p className="mt-3 text-center">Need Assistance? Call at <a className="text-decoration-none text-dark" href="tel:+91 9599050903">+91 7415051778</a></p>
         </form>

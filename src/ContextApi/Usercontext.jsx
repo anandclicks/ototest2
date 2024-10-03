@@ -342,8 +342,40 @@ export function UserContextProvider ({children}){
     }
   ]
   const [pgAllData, setpgAllData] = useState(AllPgDetails)
+  const highToLowDataHandle = () => {
+    const filteredData = [...pgAllData].sort((a, b) => Number(b.doubleSharingPrice) - Number(a.doubleSharingPrice));
+    setpgAllData(filteredData);
+  };
+  
+  const lowToHighDataHandle = () => {
+    const filteredData = [...pgAllData].sort((a, b) => Number(a.doubleSharingPrice) - Number(b.doubleSharingPrice));
+    setpgAllData(filteredData);
+  };
+  
+
+
+  const SingleSharingHandle = () => {
+    const filteredData = AllPgDetails.filter(pg => pg.privatRoom);
+    setpgAllData(filteredData);
+  };
+
+  const doubleSharingHandle = () => {
+    const filteredData = AllPgDetails.filter(pg => pg.DoubleSharing);
+    setpgAllData(filteredData);
+  };
+
+  const tripleSharingHandle = () => {
+    const filteredData = AllPgDetails.filter(pg => pg.TripleSharing);
+    setpgAllData(filteredData);
+  };
+
+  const handleRange = (value) => {
+    const numericValue = Number(value);
+    const filteredData = AllPgDetails.filter(pg => numericValue < pg.doubleSharingPrice && pg.doubleSharingPrice < 20000);
+    setpgAllData(filteredData);
+  };
   return (
-    <UserContext.Provider value={{Navstate,setNavstate,Formstate,setFormstate,pgAllData}}>
+    <UserContext.Provider value={{Navstate,setNavstate,Formstate,setFormstate,pgAllData,setpgAllData,highToLowDataHandle,lowToHighDataHandle,SingleSharingHandle,doubleSharingHandle,tripleSharingHandle,handleRange}}>
       {children}
     </UserContext.Provider>
   )

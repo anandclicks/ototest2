@@ -6,6 +6,7 @@ import NoidaALLPg from '../pgbycities/NoidaALLPg'
 import GreternoidaallPg from '../pgbycities/GreternoidaallPg'
 import Navbar2 from '../Navbar2'
 import Prasence from '../Prasence'
+import PGFilter from '../Filter'
 
 function Allpg() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function Allpg() {
   return (
     <div>
      <Navbar2/>
+     <PGFilter/>
       <NoidaALLPg/>
       
       <Prasence/>
