@@ -105,10 +105,10 @@ function Contactus() {
                 </div>
                 <div className='flex flex-col gap-4'>
                   <div>
-                    <i className="fa-solid fa-envelope bg-white text-black p-3 rounded-circle me-3"></i> kayanthusainotostays@gmail.com
+                    <i className="fa-solid fa-envelope bg-white text-black p-3 rounded-circle me-3"></i> info@otostays.com
                   </div>
-                  <div>
-                    <i className="fa-solid fa-phone bg-white text-black p-3 rounded-circle me-3"></i>+91 7415051778
+                  <div className='d-flex'>
+                    <i className="fa-solid fa-phone bg-white text-black p-3 rounded-circle me-3"></i><p>+91 7415051778 <p>Time : 10Am to 8Pm</p></p>
                   </div>
                 </div>
               </div>

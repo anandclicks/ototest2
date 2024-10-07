@@ -24,7 +24,7 @@ function Navbar() {
           <Link to={'/explorepgs'} className=' cursor navbarLink text-black'>Explore PG</Link>
             <Link to={'/aboutus'} className=' cursor navbarLink text-black'>About Us</Link>
             <Link to={'/contactUs'}  className=' cursor navbarLink text-black'>Contact us</Link> 
-            <Link to={'/'} className=' cursor navbarLink text-black'>+91 7415051778</Link>
+            <Link to={'tel:+91 7415051778'} className=' cursor navbarLink text-black'>+91 7415051778</Link>
           </ul></div>
         <div className="col-lg-2 col-6 navRight justify-end ">
             <div onClick={()=> setFormstate(true)} className="btn primeryBg border-none rounded-none py-2 flex items-center px-4 fw-light  d-none d-lg-flex">List Property</div>
@@ -34,8 +34,8 @@ function Navbar() {
       <Link to={'/explorepgs'} >Explore PG</Link>
       <Link to={'/aboutus'} >About Us</Link>
       <Link to={'/contactUs'}>Contact us</Link>
-      <Link to={'/'} >+90 000000000</Link>
-      <Link to={'/'} >property@gmail.com</Link>
+      <Link to={'tel:+91 7415051778'} >+91 7415051778</Link>
+      <Link to={'/'} >info@otostays.com</Link>
       </ul>
 
     </div>
