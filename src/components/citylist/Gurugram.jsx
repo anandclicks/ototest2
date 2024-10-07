@@ -47,7 +47,7 @@ function Gurugram() {
           </div>
        <div className="flex w-100 justify-between p-2 p-lg-5 ps-lg-0 p24px textHilight">
          <div className='text-center'>
-           10K <br /> Customers
+           10K <br /> Happy customer
          </div>
          <div className='text-center'>
          250+ <br /> Oto Habitats

@@ -48,7 +48,7 @@ function Noida() {
           </div>
           <div className="flex w-100 justify-between p-2 p-lg-5 ps-lg-0 p24px textHilight">
             <div className='text-center'>
-              10K <br /> Customers
+              10K <br /> Happy customer
             </div>
             <div className='text-center'>
             250+ <br /> Oto Habitats
@@ -59,7 +59,7 @@ function Noida() {
           </div>
         </div>
         <div className="col-lg-6 col-12 pgdelhiRight">
-          <img className='rounded-3' src="\Cityimages\noida.jpg" alt="" />
+          <img className='rounded-3' src="\Cityimages\noida3.jpg" alt="" />
         </div>
       </div>
     </div>
