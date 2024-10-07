@@ -15,8 +15,10 @@ function Foorertwo() {
               <p className='t15px'>Nearby Radha public school <br />
               Nearby - Esi hospital Sector 22 Noida</p>
               </p>
-            <p><i className="fas fa-envelope"></i> kayanthusainotostays@gmail.com</p>
-            <p><i className="fas fa-phone"></i> +91 7415051778</p>
+            <p><i className="fas fa-envelope"></i> info@otostays.com</p>
+            <p><i className="fas fa-phone"></i> +91 7415051778 <br />
+            <p className='ms-0 ms-lg-4'>Time : 10Am to 8Pm</p></p>
+            
           </div>
           <div className="col-md-3 mb-4">
             <h6 className="custom-footer-heading t24px fwnormal">Useful Links</h6>
